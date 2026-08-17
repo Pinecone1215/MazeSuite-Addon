@@ -7,6 +7,8 @@ Created on Sun Aug 16 22:33:24 2026
 
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow
+from menu_bar import MenuBar
+from tool_bar import ToolBar
 
 app = QApplication.instance()
 if app is None:
@@ -15,6 +17,9 @@ if app is None:
 window = QMainWindow()
 window.setWindowTitle('maze-geometry-editor')
 window.resize(600, 400)
+
+window.setMenuBar(MenuBar(window))
+window.addToolBar(ToolBar(window))
 
 window.show()
 sys.exit(app.exec())
