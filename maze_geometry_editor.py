@@ -9,6 +9,8 @@ import sys
 from PySide6.QtWidgets import QApplication, QMainWindow
 from menu_bar import MenuBar
 from tool_bar import ToolBar
+from editor_view import EditorView
+from editor_scene import EditorScene
 
 app = QApplication.instance()
 if app is None:
@@ -20,6 +22,10 @@ window.resize(600, 400)
 
 window.setMenuBar(MenuBar(window))
 window.addToolBar(ToolBar(window))
+
+view = EditorView(window)
+view.setScene(EditorScene(view))
+window.setCentralWidget(view)
 
 window.show()
 sys.exit(app.exec())
