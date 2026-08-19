@@ -17,19 +17,15 @@ class EditorScene(QGraphicsScene):
         '''
         self.setSceneRect(-500, -500, 1000, 1000)
         
-        ''' 測試繪製矩形 '''
-        self.rectangle = self.addRect(-50, -50, 100, 100)
-        
-        ''' 測試物件選取功能 '''
-        self.rectangle.setFlag(
-            QGraphicsItem.GraphicsItemFlag.ItemIsSelectable
-        )
-        
-        print(self.rectangle)
+        ''' 測試多物件選取 '''
+        self.rectangle1 = self.addRect(-150, -50, 100, 100)
+        self.rectangle2 = self.addRect(50, -50, 100, 100)
+        self.rectangle1.setFlag(QGraphicsItem.GraphicsItemFlag.ItemIsSelectable)
+        self.rectangle2.setFlag(QGraphicsItem.GraphicsItemFlag.ItemIsSelectable)
     
-    ''' 驗證物件選取功能 '''
-    def mousePressEvent(self, event):
-        super().mousePressEvent(event)
+    ''' 驗證多物件選取功能 '''
+    def mouseReleaseEvent(self, event):
+        super().mouseReleaseEvent(event)
 
         items = self.selectedItems()
         print(items)
