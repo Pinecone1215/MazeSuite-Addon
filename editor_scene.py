@@ -18,14 +18,18 @@ class EditorScene(QGraphicsScene):
         self.setSceneRect(-500, -500, 1000, 1000)
         
         ''' 測試多物件選取 '''
-        self.rectangle1 = self.addRect(-150, -50, 100, 100)
-        self.rectangle2 = self.addRect(50, -50, 100, 100)
+        self.rectangle1 = self.addRect(0, 0, 100, 100)
+        self.rectangle2 = self.addRect(0, 0, 100, 100)
+        self.rectangle1.setPos(-150, -50)
+        self.rectangle2.setPos(50, -50)
         self.rectangle1.setFlag(QGraphicsItem.GraphicsItemFlag.ItemIsSelectable)
         self.rectangle2.setFlag(QGraphicsItem.GraphicsItemFlag.ItemIsSelectable)
+        self.rectangle1.setFlag(QGraphicsItem.GraphicsItemFlag.ItemIsMovable)
+        self.rectangle2.setFlag(QGraphicsItem.GraphicsItemFlag.ItemIsMovable)
     
-    ''' 驗證多物件選取功能 '''
+    ''' 驗證多物件拖曳功能 '''
     def mouseReleaseEvent(self, event):
         super().mouseReleaseEvent(event)
 
-        items = self.selectedItems()
-        print(items)
+        print("rectangle1:", self.rectangle1.pos())
+        print("rectangle2:", self.rectangle2.pos())
