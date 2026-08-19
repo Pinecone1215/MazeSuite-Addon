@@ -5,7 +5,7 @@ Created on Wed Aug 19 01:06:23 2026
 @author: Pinecone
 """
 
-from PySide6.QtWidgets import QGraphicsScene
+from PySide6.QtWidgets import QGraphicsScene, QGraphicsItem
 
 class EditorScene(QGraphicsScene):
     def __init__(self, parent=None):
@@ -18,4 +18,9 @@ class EditorScene(QGraphicsScene):
         self.setSceneRect(-500, -500, 1000, 1000)
         
         ''' 測試繪製矩形 '''
-        self.addRect(0, 0, 100, 50)
+        self.rectangle = self.addRect(-50, -50, 100, 100)
+        
+        ''' 測試選取圖形 '''
+        self.rectangle.setFlag(
+            QGraphicsItem.GraphicsItemFlag.ItemIsSelectable
+        )
