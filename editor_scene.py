@@ -16,3 +16,6 @@ class EditorScene(QGraphicsScene):
         指定 Scene 可視世界的一個矩形範圍；前兩個是左上角，後兩個是寬高。
         '''
         self.setSceneRect(-500, -500, 1000, 1000)
+        
+        ''' 測試繪製矩形 '''
+        self.addRect(0, 0, 100, 50)
