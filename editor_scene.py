@@ -20,7 +20,16 @@ class EditorScene(QGraphicsScene):
         ''' 測試繪製矩形 '''
         self.rectangle = self.addRect(-50, -50, 100, 100)
         
-        ''' 測試選取圖形 '''
+        ''' 測試物件選取功能 '''
         self.rectangle.setFlag(
             QGraphicsItem.GraphicsItemFlag.ItemIsSelectable
         )
+        
+        print(self.rectangle)
+    
+    ''' 驗證物件選取功能 '''
+    def mousePressEvent(self, event):
+        super().mousePressEvent(event)
+
+        items = self.selectedItems()
+        print(items)
