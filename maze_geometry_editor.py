@@ -11,7 +11,7 @@ from menu_bar import MenuBar
 from tool_bar import ToolBar
 from editor_view import EditorView
 from editor_scene import EditorScene
-from wall_item import WallItem
+from wall_tool import WallTool
 
 app = QApplication.instance()
 if app is None:
@@ -28,7 +28,7 @@ view = EditorView(window)
 scene = EditorScene(view)
 
 view.setScene(scene)
-scene.addItem(WallItem(0, 0, 100, 100))
+scene.editor_tool = WallTool()
 
 window.setCentralWidget(view)
 

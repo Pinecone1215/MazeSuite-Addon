@@ -7,7 +7,7 @@ Created on Thu Aug 20 16:12:48 2026
 
 from abc import ABC, abstractmethod
 
-class DrawingTool(ABC):
+class EditorTool(ABC):
     @abstractmethod
     def press(self, scene, event):
         pass

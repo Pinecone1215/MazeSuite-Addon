@@ -5,10 +5,10 @@ Created on Fri Aug 21 01:02:03 2026
 @author: Pinecone
 """
 
-from drawing_tool import DrawingTool
+from editor_tool import EditorTool
 from wall_item import WallItem
 
-class WallTool(DrawingTool):
+class WallTool(EditorTool):
     def __init__(self):
         self.temp_wall = None
     
