@@ -11,6 +11,7 @@ from menu_bar import MenuBar
 from tool_bar import ToolBar
 from editor_view import EditorView
 from editor_scene import EditorScene
+from wall_item import WallItem
 
 app = QApplication.instance()
 if app is None:
@@ -24,7 +25,11 @@ window.setMenuBar(MenuBar(window))
 window.addToolBar(ToolBar(window))
 
 view = EditorView(window)
-view.setScene(EditorScene(view))
+scene = EditorScene(view)
+
+view.setScene(scene)
+scene.addItem(WallItem(0, 0, 100, 100))
+
 window.setCentralWidget(view)
 
 window.show()
