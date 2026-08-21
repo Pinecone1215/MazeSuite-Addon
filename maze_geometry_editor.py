@@ -12,6 +12,8 @@ from tool_bar import ToolBar
 from editor_view import EditorView
 from editor_scene import EditorScene
 from wall_tool import WallTool
+from active_region_tool import ActiveRegionTool
+from end_region_tool import EndRegionTool
 
 app = QApplication.instance()
 if app is None:
@@ -33,6 +35,8 @@ view.setScene(scene)
 
 tool_bar.pointer_action.triggered.connect(lambda: setattr(scene, "editor_tool", None))
 tool_bar.wall_action.triggered.connect(lambda: setattr(scene, "editor_tool", WallTool()))
+tool_bar.active_region_action.triggered.connect(lambda: setattr(scene, "editor_tool", ActiveRegionTool()))
+tool_bar.end_region_action.triggered.connect(lambda: setattr(scene, "editor_tool", EndRegionTool()))
 
 window.setCentralWidget(view)
 
