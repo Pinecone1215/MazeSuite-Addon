@@ -21,14 +21,18 @@ window = QMainWindow()
 window.setWindowTitle('maze-geometry-editor')
 window.resize(600, 400)
 
-window.setMenuBar(MenuBar(window))
-window.addToolBar(ToolBar(window))
+menu_bar = MenuBar(window)
+window.setMenuBar(menu_bar)
+
+tool_bar = ToolBar(window)
+window.addToolBar(tool_bar)
 
 view = EditorView(window)
 scene = EditorScene(view)
-
 view.setScene(scene)
-scene.editor_tool = WallTool()
+
+tool_bar.pointer_action.triggered.connect(lambda: setattr(scene, "editor_tool", None))
+tool_bar.wall_action.triggered.connect(lambda: setattr(scene, "editor_tool", WallTool()))
 
 window.setCentralWidget(view)
 
