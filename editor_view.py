@@ -52,9 +52,11 @@ class EditorView(QGraphicsView):
     
     def wheelEvent(self, event):
         zoom_factor = 1.15
+        current_scale = self.transform().m11()
         
         ''' 滑鼠滾輪往前滾: y > 0 '''
-        if event.angleDelta().y() > 0:
+        if event.angleDelta().y() > 0 and current_scale < 5.0:
             self.scale(zoom_factor, zoom_factor)
-        else:
+        
+        if event.angleDelta().y() < 0 and current_scale > 0.2:
             self.scale(1 / zoom_factor, 1 / zoom_factor)
