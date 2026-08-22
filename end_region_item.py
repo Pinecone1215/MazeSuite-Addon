@@ -12,5 +12,5 @@ class EndRegionItem(RegionItem):
     def __init__(self, x1, y1, x2, y2):
         super().__init__(x1, y1, x2, y2)
         
-        self.setPen(QPen(QColor("red")))
+        self.setPen(QPen(QColor(255, 0, 0)))
         self.setBrush(QBrush(QColor(255, 0, 0, 80)))
