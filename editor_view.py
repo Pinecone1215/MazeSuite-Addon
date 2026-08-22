@@ -15,11 +15,18 @@ class EditorView(QGraphicsView):
         self.last_pos = None
 
     def mousePressEvent(self, event):
+        if event.button() == Qt.MouseButton.LeftButton:
+            self.panning = False
+            self.last_pos = None
+            super().mousePressEvent(event)
+            return
+        
         if event.button() == Qt.MouseButton.RightButton:
+            if event.buttons() & Qt.MouseButton.LeftButton:
+                return
             self.panning = True
             self.last_pos = event.position()
-        else:
-            super().mousePressEvent(event)
+            return
 
     def mouseMoveEvent(self, event):
         if self.panning:
