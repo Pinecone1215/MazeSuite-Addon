@@ -20,29 +20,22 @@ class RegionTool(EditorTool):
         self.start_pos = event.scenePos()
         
         x, y = self.start_pos.x(), self.start_pos.y()
-        
         self.region = self.item_class(x, y, x, y)
         scene.addItem(self.region)
         
     def move(self, scene, event):
-        if self.region is None:
-            return
-        
-        p1 = self.start_pos
-        p2 = event.scenePos()
-        rect = QRectF(p1, p2).normalized()
-        
-        self.region.setRect(rect)
+        if self.region is not None:
+            p1 = self.start_pos
+            p2 = event.scenePos()
+            rect = QRectF(p1, p2).normalized()
+            self.region.setRect(rect)
         
     def release(self, scene, event):
-        if self.region is None:
-            return
-        
-        p1 = self.start_pos
-        p2 = event.scenePos()
-        rect = QRectF(p1, p2).normalized()
-        
-        self.region.setRect(rect)
-        
-        self.region = None
-        self.start_pos = None
+        if self.region is not None:
+            p1 = self.start_pos
+            p2 = event.scenePos()
+            rect = QRectF(p1, p2).normalized()
+            
+            self.region.setRect(rect)
+            self.region = None
+            self.start_pos = None

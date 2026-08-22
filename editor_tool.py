@@ -6,16 +6,17 @@ Created on Thu Aug 20 16:12:48 2026
 """
 
 from abc import ABC, abstractmethod
+from PySide6.QtWidgets import QGraphicsScene
 
 class EditorTool(ABC):
     @abstractmethod
-    def press(self, scene, event):
+    def press(self, scene: QGraphicsScene, event):
         pass
 
     @abstractmethod
-    def move(self, scene, event):
+    def move(self, scene: QGraphicsScene, event):
         pass
 
     @abstractmethod
-    def release(self, scene, event):
+    def release(self, scene: QGraphicsScene, event):
         pass
