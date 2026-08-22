@@ -58,5 +58,5 @@ class EditorView(QGraphicsView):
         if event.angleDelta().y() > 0 and current_scale < 5.0:
             self.scale(zoom_factor, zoom_factor)
         
-        if event.angleDelta().y() < 0 and current_scale > 0.5:
+        if event.angleDelta().y() < 0 and current_scale > 0.8:
             self.scale(1 / zoom_factor, 1 / zoom_factor)
