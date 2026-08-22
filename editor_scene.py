@@ -26,11 +26,17 @@ class EditorScene(QGraphicsScene):
     def mousePressEvent(self, event):
         if self.editor_tool is not None:
             self.editor_tool.press(self, event)
+        else:
+            super().mousePressEvent(event)
 
     def mouseMoveEvent(self, event):
         if self.editor_tool is not None:
             self.editor_tool.move(self, event)
+        else:
+            super().mouseMoveEvent(event)
 
     def mouseReleaseEvent(self, event):
         if self.editor_tool is not None:
             self.editor_tool.release(self, event)
+        else:
+            super().mouseReleaseEvent(event)
