@@ -12,7 +12,6 @@ class ToolBar(QToolBar):
         super().__init__(parent)
 
         self.pointer_action = self.addAction("pointer")
-        self.pan_action = self.addAction("pan")
         self.wall_action = self.addAction("wall")
         self.end_region_action = self.addAction("end region")
         self.active_region_action = self.addAction("active region")
