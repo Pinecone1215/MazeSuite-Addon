@@ -37,5 +37,9 @@ class RegionTool(EditorTool):
             rect = QRectF(p1, p2).normalized()
             
             self.region.setRect(rect)
+            rect = self.region.rect()
+            if rect.width() < 10 or rect.height() < 10:
+                scene.removeItem(self.region)
+            
             self.region = None
             self.start_pos = None

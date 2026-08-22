@@ -37,4 +37,6 @@ class WallTool(EditorTool):
             x2, y2 = p2.x(), p2.y()
         
             self.wall.setLine(x1, y1, x2, y2)
+            if self.wall.line().length() < 10:
+                scene.removeItem(self.wall)
             self.wall = None
