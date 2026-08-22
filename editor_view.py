@@ -10,3 +10,12 @@ from PySide6.QtWidgets import QGraphicsView
 class EditorView(QGraphicsView):
     def __init__(self, parent=None):
         super().__init__(parent)
+        self.setDragMode(QGraphicsView.DragMode.NoDrag)
+
+    def enable_pan(self):
+        self.setDragMode(QGraphicsView.DragMode.ScrollHandDrag)
+        self.setInteractive(False)
+    
+    def disable_pan(self):
+        self.setDragMode(QGraphicsView.DragMode.NoDrag)
+        self.setInteractive(True)
