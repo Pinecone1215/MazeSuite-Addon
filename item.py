@@ -5,9 +5,6 @@ Created on Sun Aug 23 19:01:15 2026
 @author: Pinecone
 """
 
-from abc import ABC, abstractmethod
-
-class Item(ABC):
-    @abstractmethod
+class Item:
     def info(self) -> dict:
-        pass
+        raise NotImplementedError
