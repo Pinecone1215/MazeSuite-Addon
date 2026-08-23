@@ -15,6 +15,7 @@ from editor_scene import EditorScene
 from wall_tool import WallTool
 from active_region_tool import ActiveRegionTool
 from end_region_tool import EndRegionTool
+from pointer_tool import PointerTool
 
 app = QApplication.instance()
 if app is None:
@@ -39,7 +40,8 @@ view.setScene(scene)
 def set_editor_tool(editor_tool: EditorTool | None):
     scene.editor_tool = editor_tool
 
-tool_bar.pointer_action.triggered.connect(lambda: set_editor_tool(None))
+set_editor_tool(PointerTool(snap_size))
+tool_bar.pointer_action.triggered.connect(lambda: set_editor_tool(PointerTool(snap_size)))
 tool_bar.wall_action.triggered.connect(lambda: set_editor_tool(WallTool(snap_size)))
 tool_bar.active_region_action.triggered.connect(lambda: set_editor_tool(ActiveRegionTool(snap_size)))
 tool_bar.end_region_action.triggered.connect(lambda: set_editor_tool(EndRegionTool(snap_size)))
