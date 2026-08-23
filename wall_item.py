@@ -27,3 +27,10 @@ class WallItem(QGraphicsLineItem, Item):
         
         data = {'x1' : x1, 'y1' : y1, 'x2' : x2, 'y2' : y2}
         return data
+    
+    def set_info(self, key: str, value: float):
+        data = self.info()
+        data[key] = value
+    
+        self.setPos(0, 0)
+        self.setLine(data["x1"], data["y1"], data["x2"], data["y2"])

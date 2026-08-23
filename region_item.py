@@ -33,3 +33,13 @@ class RegionItem(QGraphicsRectItem, Item):
         
         data = {'x1' : x1, 'y1' : y1, 'x2' : x2, 'y2' : y2}
         return data
+    
+    def set_info(self, key: str, value: float):
+        data = self.info()
+        data[key] = value
+    
+        p1 = QPointF(data["x1"], data["y1"])
+        p2 = QPointF(data["x2"], data["y2"])
+    
+        self.setPos(0, 0)
+        self.setRect(QRectF(p1, p2).normalized())
