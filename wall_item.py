@@ -5,11 +5,11 @@ Created on Thu Aug 20 14:25:10 2026
 @author: Pinecone
 """
 
-from item import Item
+from editor_item import EditorItem
 from PySide6.QtGui import QColor, QPen
 from PySide6.QtWidgets import QGraphicsLineItem, QGraphicsItem
 
-class WallItem(QGraphicsLineItem, Item):
+class WallItem(QGraphicsLineItem, EditorItem):
     def __init__(self, x1: float, y1: float, x2: float, y2: float):
         super().__init__(x1, y1, x2, y2)
         
@@ -32,5 +32,10 @@ class WallItem(QGraphicsLineItem, Item):
         data = self.info()
         data[key] = value
     
+        self.setPos(0, 0)
+        self.setLine(data["x1"], data["y1"], data["x2"], data["y2"])
+    
+    def apply_position(self):
+        data = self.info()
         self.setPos(0, 0)
         self.setLine(data["x1"], data["y1"], data["x2"], data["y2"])

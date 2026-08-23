@@ -5,6 +5,7 @@ Created on Sun Aug 23 18:06:28 2026
 @author: Pinecone
 """
 
+from editor_item import EditorItem
 from editor_tool import EditorTool
 from PySide6.QtCore import QPointF
 from PySide6.QtWidgets import QGraphicsScene, QGraphicsSceneMouseEvent
@@ -28,3 +29,7 @@ class PointerTool(EditorTool):
 
     def release(self, scene: QGraphicsScene, event: QGraphicsSceneMouseEvent):
         QGraphicsScene.mouseReleaseEvent(scene, event)
+        
+        for item in scene.selectedItems():
+            if isinstance(item, EditorItem):
+                item.apply_position()

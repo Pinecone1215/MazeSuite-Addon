@@ -5,11 +5,11 @@ Created on Sat Aug 22 13:51:15 2026
 @author: Pinecone
 """
 
-from item import Item
+from editor_item import EditorItem
 from PySide6.QtCore import QPointF, QRectF
 from PySide6.QtWidgets import QGraphicsRectItem, QGraphicsItem
 
-class RegionItem(QGraphicsRectItem, Item):
+class RegionItem(QGraphicsRectItem, EditorItem):
     def __init__(self, x1: float, y1: float, x2: float, y2: float):
         '''
         把兩個座標點轉成 QPointF，再建立 QRectF 並 normalized()，
@@ -37,6 +37,15 @@ class RegionItem(QGraphicsRectItem, Item):
     def set_info(self, key: str, value: float):
         data = self.info()
         data[key] = value
+    
+        p1 = QPointF(data["x1"], data["y1"])
+        p2 = QPointF(data["x2"], data["y2"])
+    
+        self.setPos(0, 0)
+        self.setRect(QRectF(p1, p2).normalized())
+    
+    def apply_position(self):
+        data = self.info()
     
         p1 = QPointF(data["x1"], data["y1"])
         p2 = QPointF(data["x2"], data["y2"])

@@ -5,7 +5,7 @@ Created on Sun Aug 23 19:30:39 2026
 @author: Pinecone
 """
 
-from item import Item
+from editor_item import EditorItem
 from PySide6.QtWidgets import QDockWidget, QWidget, QFormLayout, QDoubleSpinBox
 
 class PropertiesDock(QDockWidget):
@@ -36,7 +36,7 @@ class PropertiesDock(QDockWidget):
             self.fields[key].setValue(value)
             self.fields[key].blockSignals(False)
     
-    def set_item(self, item: Item | None):
+    def set_item(self, item: EditorItem | None):
         if item is self.item:
             return
         
