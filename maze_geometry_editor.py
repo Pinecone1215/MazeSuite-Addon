@@ -54,9 +54,14 @@ tool_bar.end_region_action.triggered.connect(lambda: set_editor_tool(EndRegionTo
 menu_bar.delete_action.triggered.connect(scene.delete_selected_items)
 window.setCentralWidget(view)
 
-def update_properties():
+def update_selection():
     items = scene.selectedItems()
     properties_dock.set_item(items[0] if len(items) == 1 else None)
+
+def update_properties():
+    properties_dock.refresh()
+
+scene.selectionChanged.connect(update_selection)
 scene.changed.connect(update_properties)
 
 window.showMaximized()
