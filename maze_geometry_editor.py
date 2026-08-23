@@ -38,6 +38,8 @@ tool_bar.wall_action.triggered.connect(lambda: setattr(scene, "editor_tool", Wal
 tool_bar.active_region_action.triggered.connect(lambda: setattr(scene, "editor_tool", ActiveRegionTool()))
 tool_bar.end_region_action.triggered.connect(lambda: setattr(scene, "editor_tool", EndRegionTool()))
 
+menu_bar.delete_action.triggered.connect(scene.delete_selected_items)
+
 window.setCentralWidget(view)
 
 window.show()

@@ -43,3 +43,7 @@ class EditorScene(QGraphicsScene):
             self.editor_tool.release(self, event)
         else:
             super().mouseReleaseEvent(event)
+    
+    def delete_selected_items(self):
+        for item in self.selectedItems():
+            self.removeItem(item)

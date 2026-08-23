@@ -6,10 +6,16 @@ Created on Mon Aug 17 18:43:44 2026
 """
 
 from PySide6.QtWidgets import QMenuBar
+from PySide6.QtGui import QAction, QKeySequence
 
 class MenuBar(QMenuBar):
     def __init__(self, parent=None):
         super().__init__(parent)
+        
+        self.delete_action = QAction("Delete", self)
+        self.delete_action.setShortcut \
+            (QKeySequence(QKeySequence.StandardKey.Delete))
+        
         self.create_file_menu()
         self.create_edit_menu()
 
@@ -24,5 +30,5 @@ class MenuBar(QMenuBar):
         edit_menu = self.addMenu("edit")
         edit_menu.addAction("undo")
         edit_menu.addAction("redo")
-        edit_menu.addAction("delete")
+        edit_menu.addAction(self.delete_action)
         
