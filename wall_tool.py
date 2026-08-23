@@ -10,13 +10,13 @@ from editor_tool import EditorTool
 from PySide6.QtCore import QPointF
 
 class WallTool(EditorTool):
-    def __init__(self, grid_size: int = 5):
+    def __init__(self, snap_size: int = 5):
         self.wall = None
-        self.grid_size = grid_size
+        self.snap_size = snap_size
         
     def snap(self, pos: QPointF) -> QPointF:
-        x = round(pos.x() / self.grid_size) * self.grid_size
-        y = round(pos.y() / self.grid_size) * self.grid_size
+        x = round(pos.x() / self.snap_size) * self.snap_size
+        y = round(pos.y() / self.snap_size) * self.snap_size
         return QPointF(x, y)
     
     def press(self, scene, event):
@@ -44,6 +44,6 @@ class WallTool(EditorTool):
             x2, y2 = p2.x(), p2.y()
         
             self.wall.setLine(x1, y1, x2, y2)
-            if self.wall.line().length() < self.grid_size:
+            if self.wall.line().length() < self.snap_size:
                 scene.removeItem(self.wall)
             self.wall = None

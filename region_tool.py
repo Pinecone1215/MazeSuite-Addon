@@ -13,14 +13,14 @@ from region_item import RegionItem
 class RegionTool(EditorTool):
     item_class = RegionItem
     
-    def __init__(self, grid_size: int = 5):
+    def __init__(self, snap_size: int = 5):
         self.region = None
         self.start_pos = None
-        self.grid_size = grid_size
+        self.snap_size = snap_size
         
     def snap(self, pos: QPointF) -> QPointF:
-        x = round(pos.x() / self.grid_size) * self.grid_size
-        y = round(pos.y() / self.grid_size) * self.grid_size
+        x = round(pos.x() / self.snap_size) * self.snap_size
+        y = round(pos.y() / self.snap_size) * self.snap_size
         return QPointF(x, y)
         
     def press(self, scene, event):
@@ -45,7 +45,7 @@ class RegionTool(EditorTool):
             
             self.region.setRect(rect)
             rect = self.region.rect()
-            if rect.width() < self.grid_size or rect.height() < self.grid_size:
+            if rect.width() < self.snap_size or rect.height() < self.snap_size:
                 scene.removeItem(self.region)
             
             self.region = None

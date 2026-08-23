@@ -9,6 +9,7 @@ import sys
 from PySide6.QtWidgets import QApplication, QMainWindow
 from menu_bar import MenuBar
 from tool_bar import ToolBar
+from editor_tool import EditorTool
 from editor_view import EditorView
 from editor_scene import EditorScene
 from wall_tool import WallTool
@@ -29,14 +30,19 @@ window.setMenuBar(menu_bar)
 tool_bar = ToolBar(window)
 window.addToolBar(tool_bar)
 
+grid_size, snap_size = 20, 10
+
 view = EditorView(window)
-scene = EditorScene(view)
+scene = EditorScene(view, grid_size)
 view.setScene(scene)
 
-tool_bar.pointer_action.triggered.connect(lambda: setattr(scene, "editor_tool", None))
-tool_bar.wall_action.triggered.connect(lambda: setattr(scene, "editor_tool", WallTool()))
-tool_bar.active_region_action.triggered.connect(lambda: setattr(scene, "editor_tool", ActiveRegionTool()))
-tool_bar.end_region_action.triggered.connect(lambda: setattr(scene, "editor_tool", EndRegionTool()))
+def set_editor_tool(editor_tool: EditorTool | None):
+    scene.editor_tool = editor_tool
+
+tool_bar.pointer_action.triggered.connect(lambda: set_editor_tool(None))
+tool_bar.wall_action.triggered.connect(lambda: set_editor_tool(WallTool(snap_size)))
+tool_bar.active_region_action.triggered.connect(lambda: set_editor_tool(ActiveRegionTool(snap_size)))
+tool_bar.end_region_action.triggered.connect(lambda: set_editor_tool(EndRegionTool(snap_size)))
 
 menu_bar.delete_action.triggered.connect(scene.delete_selected_items)
 

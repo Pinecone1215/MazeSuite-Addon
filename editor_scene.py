@@ -10,9 +10,9 @@ from editor_tool import EditorTool
 from PySide6.QtWidgets import QGraphicsScene
 
 class EditorScene(QGraphicsScene):
-    def __init__(self, parent=None):
+    def __init__(self, parent=None, grid_size: int = 20):
         super().__init__(parent)
-        self.grid_size: int = 30
+        self.grid_size = grid_size
         
         '''
         setSceneRect(x, y, width, height):
