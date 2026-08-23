@@ -9,7 +9,7 @@ from PySide6.QtGui import QColor, QPen
 from PySide6.QtWidgets import QGraphicsLineItem, QGraphicsItem
 
 class WallItem(QGraphicsLineItem):
-    def __init__(self, x1, y1, x2, y2):
+    def __init__(self, x1: float, y1: float, x2: float, y2: float):
         super().__init__(x1, y1, x2, y2)
         
         self.setPen(QPen(QColor(205, 125, 45), 3))

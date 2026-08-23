@@ -9,7 +9,7 @@ from PySide6.QtCore import QPointF, QRectF
 from PySide6.QtWidgets import QGraphicsRectItem, QGraphicsItem
 
 class RegionItem(QGraphicsRectItem):
-    def __init__(self, x1, y1, x2, y2):
+    def __init__(self, x1: float, y1: float, x2: float, y2: float):
         '''
         把兩個座標點轉成 QPointF，再建立 QRectF 並 normalized()，
         因此不論使用者往哪個方向拖曳，最後都會得到正常的矩形

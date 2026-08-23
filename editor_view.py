@@ -7,6 +7,7 @@ Created on Wed Aug 19 00:33:36 2026
 
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QGraphicsView
+from PySide6.QtGui import QMouseEvent, QWheelEvent
 
 class EditorView(QGraphicsView):
     def __init__(self, parent=None):
@@ -14,7 +15,7 @@ class EditorView(QGraphicsView):
         self.panning = False
         self.last_pos = None
 
-    def mousePressEvent(self, event):
+    def mousePressEvent(self, event: QMouseEvent):
         if event.button() == Qt.MouseButton.LeftButton:
             self.panning = False
             self.last_pos = None
@@ -28,7 +29,7 @@ class EditorView(QGraphicsView):
             self.last_pos = event.position()
             return
 
-    def mouseMoveEvent(self, event):
+    def mouseMoveEvent(self, event: QMouseEvent):
         if self.panning:
             current_pos = event.position()
             delta = current_pos - self.last_pos
@@ -43,14 +44,14 @@ class EditorView(QGraphicsView):
         else:
             super().mouseMoveEvent(event)
 
-    def mouseReleaseEvent(self, event):
+    def mouseReleaseEvent(self, event: QMouseEvent):
         if event.button() == Qt.MouseButton.RightButton:
             self.panning = False
             self.last_pos = None
         else:
             super().mouseReleaseEvent(event)
     
-    def wheelEvent(self, event):
+    def wheelEvent(self, event: QWheelEvent):
         zoom_factor = 1.15
         current_scale = self.transform().m11()
         

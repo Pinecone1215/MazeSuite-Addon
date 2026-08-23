@@ -6,13 +6,15 @@ Created on Sun Aug 23 01:11:38 2026
 """
 
 import math
+from PySide6.QtGui import QPainter
 from PySide6.QtGui import QPen, QColor
 from PySide6.QtWidgets import QGraphicsItem
 from PySide6.QtCore import QRectF, QLineF, Qt
+from PySide6.QtWidgets import QStyleOptionGraphicsItem, QWidget
 
 class GridItem(QGraphicsItem):
     ''' 目前尺寸由程式內部控制，暫時不需要防呆 '''
-    def __init__(self, left: float, top: float, width: float, height: float, grid_size: int):
+    def __init__(self, left: int, top: int, width: int, height: int, grid_size: int):
         super().__init__()
         self.grid_size = grid_size
         self.rect = QRectF(left, top, width, height)
@@ -25,7 +27,12 @@ class GridItem(QGraphicsItem):
     def boundingRect(self) -> QRectF:
         return self.rect
     
-    def paint(self, painter, option, widget=None):
+    def paint(
+            self, painter: QPainter, 
+            option: QStyleOptionGraphicsItem, 
+            widget: QWidget | None = None
+        ):
+        
         pen = QPen(QColor(255, 255, 255, 127))
         pen.setWidthF(0.5)
         pen.setStyle(Qt.PenStyle.DashLine)

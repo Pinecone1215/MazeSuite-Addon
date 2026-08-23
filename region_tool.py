@@ -5,10 +5,10 @@ Created on Sat Aug 22 13:59:41 2026
 @author: Pinecone
 """
 
-from PySide6.QtCore import QRectF
-from PySide6.QtCore import QPointF
 from editor_tool import EditorTool
 from region_item import RegionItem
+from PySide6.QtCore import QRectF, QPointF
+from PySide6.QtWidgets import QGraphicsScene, QGraphicsSceneMouseEvent
 
 class RegionTool(EditorTool):
     item_class = RegionItem
@@ -23,21 +23,21 @@ class RegionTool(EditorTool):
         y = round(pos.y() / self.snap_size) * self.snap_size
         return QPointF(x, y)
         
-    def press(self, scene, event):
+    def press(self, scene: QGraphicsScene, event: QGraphicsSceneMouseEvent):
         self.start_pos = self.snap(event.scenePos())
         
         x, y = self.start_pos.x(), self.start_pos.y()
         self.region = self.item_class(x, y, x, y)
         scene.addItem(self.region)
         
-    def move(self, scene, event):
+    def move(self, scene: QGraphicsScene, event: QGraphicsSceneMouseEvent):
         if self.region is not None:
             p1 = self.start_pos
             p2 = self.snap(event.scenePos())
             rect = QRectF(p1, p2).normalized()
             self.region.setRect(rect)
         
-    def release(self, scene, event):
+    def release(self, scene: QGraphicsScene, event: QGraphicsSceneMouseEvent):
         if self.region is not None:
             p1 = self.start_pos
             p2 = self.snap(event.scenePos())
