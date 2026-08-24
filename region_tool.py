@@ -27,7 +27,7 @@ class RegionTool(EditorTool):
         self.start_pos = self.snap(event.scenePos())
         
         x, y = self.start_pos.x(), self.start_pos.y()
-        self.region = self.item_class(x, y, x, y)
+        self.region = self.item_class(x, y, 0, 0)
         scene.addItem(self.region)
         
     def move(self, scene: QGraphicsScene, event: QGraphicsSceneMouseEvent):

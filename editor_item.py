@@ -5,12 +5,18 @@ Created on Sun Aug 23 19:01:15 2026
 @author: Pinecone
 """
 
-class EditorItem:
-    def info(self) -> dict:
-        raise NotImplementedError
+from typing import Protocol, runtime_checkable
+
+@runtime_checkable
+class EditorItem(Protocol):
+    def angle(self) -> float:
+        ...
     
-    def set_info(self, key: str, value: float):
-        raise NotImplementedError
-        
-    def apply_position(self):
-        raise NotImplementedError
+    def set_angle(self, value: float) -> None:
+        ...
+    
+    def geometry(self) -> dict[str, float]:
+        ...
+    
+    def set_geometry(self, key: str, value: float) -> None:
+        ...

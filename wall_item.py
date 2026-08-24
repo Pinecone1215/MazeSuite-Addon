@@ -5,11 +5,11 @@ Created on Thu Aug 20 14:25:10 2026
 @author: Pinecone
 """
 
-from editor_item import EditorItem
+import math
 from PySide6.QtGui import QColor, QPen
 from PySide6.QtWidgets import QGraphicsLineItem, QGraphicsItem
 
-class WallItem(QGraphicsLineItem, EditorItem):
+class WallItem(QGraphicsLineItem):
     def __init__(self, x1: float, y1: float, x2: float, y2: float):
         super().__init__(x1, y1, x2, y2)
         
@@ -17,25 +17,37 @@ class WallItem(QGraphicsLineItem, EditorItem):
         self.setFlag(QGraphicsItem.GraphicsItemFlag.ItemIsSelectable)
         self.setFlag(QGraphicsItem.GraphicsItemFlag.ItemIsMovable)
     
-    def info(self) -> dict:
+    def angle(self) -> float:
         line = self.line()
-        p1 = self.mapToScene(line.p1())
-        p2 = self.mapToScene(line.p2())
+        dx = line.x2() - line.x1()
+        dy = line.y2() - line.y1()
+        return math.degrees(math.atan2(dy, dx)) % 360
+    
+    def set_angle(self, value: float) -> None:
+        line = self.line()
+        x1, y1 = line.x1(), line.y1()
+        x2, y2 = line.x2(), line.y2()
+        
+        ''' 畢氏定理計算斜邊長度 '''
+        length = math.hypot(x2 - x1, y2 - y1)
+        radian = math.radians(value)
+        
+        ''' 以 p1 為中心旋轉 line '''
+        new_x2 = x1 + length * math.cos(radian)
+        new_y2 = y1 + length * math.sin(radian)
+        self.setLine(x1, y1, new_x2, new_y2)
+    
+    def geometry(self) -> dict[str, float]:
+        line = self.line()
+        p1, p2 = line.p1(), line.p2()
         
         x1, y1 = p1.x(), p1.y()
         x2, y2 = p2.x(), p2.y()
         
-        data = {'x1' : x1, 'y1' : y1, 'x2' : x2, 'y2' : y2}
+        data = {'x1':x1, 'y1':y1, 'x2':x2, 'y2':y2}
         return data
     
-    def set_info(self, key: str, value: float):
-        data = self.info()
-        data[key] = value
-    
-        self.setPos(0, 0)
-        self.setLine(data["x1"], data["y1"], data["x2"], data["y2"])
-    
-    def apply_position(self):
-        data = self.info()
-        self.setPos(0, 0)
-        self.setLine(data["x1"], data["y1"], data["x2"], data["y2"])
+    def set_geometry(self, key: str, value: float) -> None:
+        geometry = self.geometry()
+        geometry[key] = value
+        self.setLine(geometry["x1"], geometry["y1"], geometry["x2"], geometry["y2"])
