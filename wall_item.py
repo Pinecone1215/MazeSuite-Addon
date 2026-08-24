@@ -6,6 +6,7 @@ Created on Thu Aug 20 14:25:10 2026
 """
 
 import math
+from PySide6.QtCore import QPointF
 from PySide6.QtGui import QColor, QPen
 from PySide6.QtWidgets import QGraphicsLineItem, QGraphicsItem
 
@@ -43,11 +44,27 @@ class WallItem(QGraphicsLineItem):
         
         x1, y1 = p1.x(), p1.y()
         x2, y2 = p2.x(), p2.y()
-        
-        data = {'x1':x1, 'y1':y1, 'x2':x2, 'y2':y2}
-        return data
+        return {'x1':x1, 'y1':y1, 'x2':x2, 'y2':y2}
     
     def set_geometry(self, key: str, value: float) -> None:
         geometry = self.geometry()
         geometry[key] = value
         self.setLine(geometry["x1"], geometry["y1"], geometry["x2"], geometry["y2"])
+    
+    def scene_geometry(self) -> dict[str, float]:
+        line = self.line()
+
+        p1 = self.mapToScene(line.p1())
+        p2 = self.mapToScene(line.p2())
+        return {"x1": p1.x(), "y1": p1.y(), "x2": p2.x(), "y2": p2.y()}
+    
+    def set_scene_geometry(self, key: str, value: float) -> None:
+        scene_geometry = self.scene_geometry()
+        scene_geometry[key] = value
+    
+        p1_scene = QPointF(scene_geometry["x1"], scene_geometry["y1"])
+        p2_scene = QPointF(scene_geometry["x2"], scene_geometry["y2"])
+    
+        p1_local = self.mapFromScene(p1_scene)
+        p2_local = self.mapFromScene(p2_scene)
+        self.setLine(p1_local.x(), p1_local.y(), p2_local.x(), p2_local.y())

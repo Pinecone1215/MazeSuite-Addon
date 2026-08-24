@@ -20,3 +20,9 @@ class EditorItem(Protocol):
     
     def set_geometry(self, key: str, value: float) -> None:
         ...
+    
+    def scene_geometry(self) -> dict[str, float]:
+        ...
+    
+    def set_scene_geometry(self, key: str, value: float) -> None:
+        ...

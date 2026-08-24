@@ -5,6 +5,7 @@ Created on Sat Aug 22 13:51:15 2026
 @author: Pinecone
 """
 
+from PySide6.QtCore import QPointF
 from PySide6.QtWidgets import QGraphicsRectItem, QGraphicsItem
 
 class RegionItem(QGraphicsRectItem):
@@ -37,3 +38,29 @@ class RegionItem(QGraphicsRectItem):
         w, h = geometry['width'], geometry['height']
         self.setRect(x, y, w, h)
         self.setTransformOriginPoint(self.rect().topLeft())
+    
+    def scene_geometry(self) -> dict[str, float]:
+        rect = self.rect()
+        p = self.mapToScene(rect.topLeft())
+        
+        return {
+            "x": p.x(), "y": p.y(), 
+            "width": rect.width(), "height": rect.height()
+        }
+    
+    def set_scene_geometry(self, key: str, value: float) -> None:
+        scene_geometry = self.scene_geometry()
+
+        if key == "x":
+            dx = value - scene_geometry["x"]
+            self.moveBy(dx, 0)
+    
+        elif key == "y":
+            dy = value - scene_geometry["y"]
+            self.moveBy(0, dy)
+    
+        elif key == "width":
+            self.set_geometry("width", value)
+    
+        elif key == "height":
+            self.set_geometry("height", value)

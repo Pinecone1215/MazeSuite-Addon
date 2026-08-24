@@ -30,8 +30,8 @@ class PropertiesDock(QDockWidget):
         if self.item is None:
             return
     
-        geometry = self.item.geometry()
-        for key, value in geometry.items():
+        scene_geometry = self.item.scene_geometry()
+        for key, value in scene_geometry.items():
             self.fields[key].blockSignals(True)
             self.fields[key].setValue(value)
             self.fields[key].blockSignals(False)
@@ -51,14 +51,16 @@ class PropertiesDock(QDockWidget):
         if item is None:
             return
         
-        geometry = self.item.geometry()
-        for key, value in geometry.items():
+        scene_geometry = self.item.scene_geometry()
+        for key, value in scene_geometry.items():
             field = QDoubleSpinBox()
             field.setRange(-3000, 3000)
             field.setValue(value)
 
-            field.valueChanged.connect \
-                (lambda value, key=key: self.item.set_geometry(key, value))
+            field.valueChanged.connect(
+                lambda value, key=key: 
+                self.item.set_scene_geometry(key, value)
+            )
 
             self.fields[key] = field
             self.layout.addRow(key, field)
