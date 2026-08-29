@@ -13,8 +13,9 @@ class MenuBar(QMenuBar):
         super().__init__(parent)
         
         self.delete_action = QAction("Delete", self)
-        self.delete_action.setShortcut \
-            (QKeySequence(QKeySequence.StandardKey.Delete))
+        self.delete_action.setShortcut(
+            QKeySequence(QKeySequence.StandardKey.Delete)
+        )
         
         self.create_file_menu()
         self.create_edit_menu()

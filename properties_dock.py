@@ -5,8 +5,11 @@ Created on Sun Aug 23 19:30:39 2026
 @author: Pinecone
 """
 
+from PySide6.QtWidgets import (
+    QDockWidget, QWidget, QFormLayout, QDoubleSpinBox
+)
+
 from editor_item import EditorItem
-from PySide6.QtWidgets import QDockWidget, QWidget, QFormLayout, QDoubleSpinBox
 
 class PropertiesDock(QDockWidget):
     def __init__(self, parent=None):
@@ -18,8 +21,8 @@ class PropertiesDock(QDockWidget):
         
         self.setMinimumWidth(300)
         
-        self.item = None
-        self.fields = {}
+        self.item: EditorItem | None = None
+        self.fields: dict[str, QDoubleSpinBox] = {}
     
     def clear(self):
         self.fields.clear()
@@ -40,6 +43,9 @@ class PropertiesDock(QDockWidget):
         self.fields["angle"].blockSignals(True)
         self.fields["angle"].setValue(angle)
         self.fields["angle"].blockSignals(False)
+        
+    def on_geometry_changed(self, key: str, value: float) -> None:
+        self.item.set_scene_geometry(key, value)
     
     def set_item(self, item: EditorItem | None):
         if item is self.item:
@@ -56,10 +62,10 @@ class PropertiesDock(QDockWidget):
             field = QDoubleSpinBox()
             field.setRange(-3000, 3000)
             field.setValue(value)
-
+            
             field.valueChanged.connect(
                 lambda value, key=key: 
-                self.item.set_scene_geometry(key, value)
+                    self.on_geometry_changed(key, value)
             )
 
             self.fields[key] = field
@@ -70,8 +76,9 @@ class PropertiesDock(QDockWidget):
         field.setRange(0, 360)
         field.setValue(angle)
         
-        field.valueChanged.connect \
-            (lambda value: self.item.set_angle(value))
+        field.valueChanged.connect(
+            lambda value: self.item.set_angle(value)
+        )
         
         key = 'angle'
         self.fields[key] = field

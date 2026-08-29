@@ -14,14 +14,21 @@ from PySide6.QtWidgets import QStyleOptionGraphicsItem, QWidget
 
 class GridItem(QGraphicsItem):
     ''' 目前尺寸由程式內部控制，暫時不需要防呆 '''
-    def __init__(self, left: int, top: int, width: int, height: int, grid_size: int):
+    def __init__(
+            self, left: int, top: int, width: int, height: int, 
+            grid_size: int
+        ):
+        
         super().__init__()
         self.grid_size = grid_size
         self.rect = QRectF(left, top, width, height)
         
         self.setZValue(-1000)
         self.setAcceptedMouseButtons(Qt.MouseButton.NoButton)
-        self.setFlag(QGraphicsItem.GraphicsItemFlag.ItemUsesExtendedStyleOption, True)
+        self.setFlag(
+            QGraphicsItem.GraphicsItemFlag.ItemUsesExtendedStyleOption, 
+            True
+        )
     
     ''' QGraphicsItem 子類必須實作的 function '''
     def boundingRect(self) -> QRectF:
@@ -40,13 +47,27 @@ class GridItem(QGraphicsItem):
         painter.setPen(pen)
         exposed_rect = option.exposedRect
         
-        left = math.floor(exposed_rect.left() / self.grid_size) * self.grid_size
-        top = math.floor(exposed_rect.top() / self.grid_size) * self.grid_size
-        right, bottom = math.floor(exposed_rect.right()), math.floor(exposed_rect.bottom())
+        left = self.grid_size * math.floor(
+            exposed_rect.left() / self.grid_size
+        )
         
-        vertical_lines, horizontal_lines = \
-            [QLineF(x, top, x, bottom) for x in range(left, right + 1, self.grid_size)], \
-            [QLineF(left, y, right, y) for y in range(top, bottom + 1, self.grid_size)]
+        top = self.grid_size * math.floor(
+            exposed_rect.top() / self.grid_size
+        )
+        
+        right = math.floor(exposed_rect.right())
+        bottom = math.floor(exposed_rect.bottom())
+        
+        vertical_lines = [
+            QLineF(x, top, x, bottom) 
+            for x in range(left, right + 1, self.grid_size)
+        ]
+            
+        
+        horizontal_lines = [
+            QLineF(left, y, right, y) 
+            for y in range(top, bottom + 1, self.grid_size)
+        ]
         
         painter.drawLines(vertical_lines)
         painter.drawLines(horizontal_lines)

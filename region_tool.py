@@ -13,10 +13,12 @@ from PySide6.QtWidgets import QGraphicsScene, QGraphicsSceneMouseEvent
 class RegionTool(EditorTool):
     item_class = RegionItem
     
-    def __init__(self, snap_size: int = 5):
+    def __init__(self, snap_size: int, min_size: float):
         self.region = None
         self.start_pos = None
+        
         self.snap_size = snap_size
+        self.min_size = min_size
         
     def snap(self, pos: QPointF) -> QPointF:
         x = round(pos.x() / self.snap_size) * self.snap_size
@@ -27,7 +29,7 @@ class RegionTool(EditorTool):
         self.start_pos = self.snap(event.scenePos())
         
         x, y = self.start_pos.x(), self.start_pos.y()
-        self.region = self.item_class(x, y, 0, 0)
+        self.region = self.item_class(x, y, 0, 0, self.min_size)
         scene.addItem(self.region)
         
     def move(self, scene: QGraphicsScene, event: QGraphicsSceneMouseEvent):
@@ -45,7 +47,7 @@ class RegionTool(EditorTool):
             
             self.region.setRect(rect)
             rect = self.region.rect()
-            if rect.width() < self.snap_size or rect.height() < self.snap_size:
+            if rect.width() < self.min_size or rect.height() < self.min_size:
                 scene.removeItem(self.region)
             
             self.region = None

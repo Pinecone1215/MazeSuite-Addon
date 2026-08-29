@@ -11,9 +11,10 @@ from PySide6.QtGui import QColor, QPen
 from PySide6.QtWidgets import QGraphicsLineItem, QGraphicsItem
 
 class WallItem(QGraphicsLineItem):
-    def __init__(self, x1: float, y1: float, x2: float, y2: float):
+    def __init__(self, x1: float, y1: float, x2: float, y2: float, min_size: float):
         super().__init__(x1, y1, x2, y2)
         
+        self.min_size = min_size
         self.setPen(QPen(QColor(205, 125, 45), 3))
         self.setFlag(QGraphicsItem.GraphicsItemFlag.ItemIsSelectable)
         self.setFlag(QGraphicsItem.GraphicsItemFlag.ItemIsMovable)
@@ -54,4 +55,10 @@ class WallItem(QGraphicsLineItem):
     
         p1_local = self.mapFromScene(p1_scene)
         p2_local = self.mapFromScene(p2_scene)
-        self.setLine(p1_local.x(), p1_local.y(), p2_local.x(), p2_local.y())
+        
+        x1, y1 = p1_local.x(), p1_local.y()
+        x2, y2 = p2_local.x(), p2_local.y()
+        
+        length = math.hypot(x2 - x1, y2 - y1)
+        if length >= self.min_size:
+            self.setLine(p1_local.x(), p1_local.y(), p2_local.x(), p2_local.y())

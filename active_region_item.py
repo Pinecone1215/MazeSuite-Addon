@@ -9,8 +9,8 @@ from region_item import RegionItem
 from PySide6.QtGui import QColor, QPen, QBrush
 
 class ActiveRegionItem(RegionItem):
-    def __init__(self, x: float, y: float, w: float, h: float):
-        super().__init__(x, y, w, h)
+    def __init__(self, x: float, y: float, w: float, h: float, min_size: float):
+        super().__init__(x, y, w, h, min_size)
         
         self.setPen(QPen(QColor(0, 255, 0)))
         self.setBrush(QBrush(QColor(0, 255, 0, 80)))

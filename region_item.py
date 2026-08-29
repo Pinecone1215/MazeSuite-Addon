@@ -8,8 +8,10 @@ Created on Sat Aug 22 13:51:15 2026
 from PySide6.QtWidgets import QGraphicsRectItem, QGraphicsItem
 
 class RegionItem(QGraphicsRectItem):
-    def __init__(self, x: float, y: float, w: float, h: float):
+    def __init__(self, x: float, y: float, w: float, h: float, min_size: float):
         super().__init__(x, y, w, h)
+        
+        self.min_size = min_size
         self.setFlag(QGraphicsItem.GraphicsItemFlag.ItemIsSelectable)
         self.setFlag(QGraphicsItem.GraphicsItemFlag.ItemIsMovable)
     
@@ -41,12 +43,12 @@ class RegionItem(QGraphicsRectItem):
             dy = value - scene_geometry["y"]
             self.moveBy(0, dy)
     
-        elif key == "width":
+        elif key == "width" and value >= self.min_size:
             rect = self.rect()
             rect.setWidth(value)
             self.setRect(rect)
         
-        elif key == "height":
+        elif key == "height" and value >= self.min_size:
             rect = self.rect()
             rect.setHeight(value)
             self.setRect(rect)

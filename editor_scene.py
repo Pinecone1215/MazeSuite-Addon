@@ -10,7 +10,7 @@ from editor_tool import EditorTool
 from PySide6.QtWidgets import QGraphicsScene
 
 class EditorScene(QGraphicsScene):
-    def __init__(self, parent=None, grid_size: int = 20):
+    def __init__(self, x: float, y: float, w: float, h: float, grid_size: int, parent=None):
         super().__init__(parent)
         self.grid_size = grid_size
         
@@ -18,8 +18,8 @@ class EditorScene(QGraphicsScene):
         setSceneRect(x, y, width, height):
         指定 Scene 可視世界的一個矩形範圍；前兩個是左上角，後兩個是寬高。
         '''
-        self.setSceneRect(-3000, -3000, 6000, 6000)
-        self.addItem(GridItem(-3000, -3000, 6000, 6000, self.grid_size))
+        self.setSceneRect(x, y, w, h)
+        self.addItem(GridItem(x, y, w, h, self.grid_size))
         
         '''
         型別標註: editor_tool 預期只能是 EditorTool 類型，或是 None。

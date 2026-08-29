@@ -10,7 +10,7 @@ from PySide6.QtCore import QPointF
 from PySide6.QtWidgets import QGraphicsScene, QGraphicsSceneMouseEvent
 
 class PointerTool(EditorTool):
-    def __init__(self, snap_size: int = 5):
+    def __init__(self, snap_size: int):
         self.snap_size = snap_size
     
     def snap(self, pos: QPointF) -> QPointF:
