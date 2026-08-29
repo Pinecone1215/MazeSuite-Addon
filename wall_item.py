@@ -38,19 +38,6 @@ class WallItem(QGraphicsLineItem):
         new_y2 = y1 + length * math.sin(radian)
         self.setLine(x1, y1, new_x2, new_y2)
     
-    def geometry(self) -> dict[str, float]:
-        line = self.line()
-        p1, p2 = line.p1(), line.p2()
-        
-        x1, y1 = p1.x(), p1.y()
-        x2, y2 = p2.x(), p2.y()
-        return {'x1':x1, 'y1':y1, 'x2':x2, 'y2':y2}
-    
-    def set_geometry(self, key: str, value: float) -> None:
-        geometry = self.geometry()
-        geometry[key] = value
-        self.setLine(geometry["x1"], geometry["y1"], geometry["x2"], geometry["y2"])
-    
     def scene_geometry(self) -> dict[str, float]:
         line = self.line()
 

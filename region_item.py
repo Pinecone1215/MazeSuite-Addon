@@ -5,7 +5,6 @@ Created on Sat Aug 22 13:51:15 2026
 @author: Pinecone
 """
 
-from PySide6.QtCore import QPointF
 from PySide6.QtWidgets import QGraphicsRectItem, QGraphicsItem
 
 class RegionItem(QGraphicsRectItem):
@@ -21,23 +20,6 @@ class RegionItem(QGraphicsRectItem):
     def set_angle(self, value: float) -> None:
         self.setTransformOriginPoint(self.rect().topLeft())
         self.setRotation(value)
-    
-    def geometry(self) -> dict[str, float]:
-        rect = self.rect()
-        x, y = rect.x(), rect.y()
-        w, h = rect.width(), rect.height()
-        
-        data = {'x' : x, 'y' : y, 'width' : w, 'height' : h}
-        return data
-    
-    def set_geometry(self, key: str, value: float) -> None:
-        geometry = self.geometry()
-        geometry[key] = value
-    
-        x, y = geometry['x'], geometry['y']
-        w, h = geometry['width'], geometry['height']
-        self.setRect(x, y, w, h)
-        self.setTransformOriginPoint(self.rect().topLeft())
     
     def scene_geometry(self) -> dict[str, float]:
         rect = self.rect()
@@ -60,7 +42,11 @@ class RegionItem(QGraphicsRectItem):
             self.moveBy(0, dy)
     
         elif key == "width":
-            self.set_geometry("width", value)
-    
+            rect = self.rect()
+            rect.setWidth(value)
+            self.setRect(rect)
+        
         elif key == "height":
-            self.set_geometry("height", value)
+            rect = self.rect()
+            rect.setHeight(value)
+            self.setRect(rect)
