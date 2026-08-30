@@ -24,6 +24,11 @@ from properties_dock import PropertiesDock
 from active_region_tool import ActiveRegionTool
 from PySide6.QtWidgets import QApplication, QMainWindow
 
+from wall_item import WallItem
+from active_region_item import ActiveRegionItem
+from end_region_item import EndRegionItem
+from maz_document import MazDocument
+
 app = QApplication.instance()
 if app is None:
     app = QApplication(sys.argv) 
@@ -97,6 +102,23 @@ def update_properties():
 
 scene.selectionChanged.connect(update_selection)
 scene.changed.connect(update_properties)
+
+def export_maz():
+    document = MazDocument(0.1)
+    
+    for item in scene.items():
+        if isinstance(item, WallItem):
+            document.add_wall(item)
+    
+        elif isinstance(item, ActiveRegionItem):
+            document.add_active_region(item)
+    
+        elif isinstance(item, EndRegionItem):
+            document.add_end_region(item)
+            
+    document.write('maz_samples/output.maz')
+
+menu_bar.export_action.triggered.connect(export_maz)
 
 window.showMaximized()
 sys.exit(app.exec())

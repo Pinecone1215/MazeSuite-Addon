@@ -95,7 +95,7 @@ class MazDocument:
         scan_line_bottom = QLineF(0, 0, 0, 0)
         
         rectangles = []
-        region_number = 100
+        region_number = 50
         height = (end_y - start_y) / region_number
 
         for i in range(region_number):
@@ -189,3 +189,10 @@ class MazDocument:
             coord.set('z1', str(z1))
             coord.set('z2', str(z2))
             self.end_regions.append(region)
+        
+    def write(self, path: str) -> None:
+        self.tree.write(
+            path,
+            encoding='utf-8',
+            xml_declaration=True
+        )
