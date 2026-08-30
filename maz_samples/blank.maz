@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MazeFile version="2.0" url="http://www.mazesuite.com">
+  <Info>
+    <Author name="Anonymous" comments="" />
+  </Info>
+  <Global>
+    <Avatar scale="1" rotX="0" rotY="0" rotZ="0" />
+    <General />
+    <Speed moveSpeed="3" turnSpeed="45" />
+    <AmbientLight r="1" g="1" b="1" intensity="0.6" />
+    <StartMessage enabled="False" message="" />
+    <DefaultStartPosition />
+    <Timeout enabled="False" message="" timeoutValue="0" />
+    <PointOptions exitThreshold="0" exitThresholdOperator="GreaterThanEqual" messageText="" />
+    <PerspectiveSettings avatarHeight="0" cameraHeight="15" cameraMode="First-Person" fieldOfView="45" fixCameraX="False" fixedCameraX="20" fixCameraZ="False" fixedCameraZ="20" topDownOrientation="North" xRayRendering="False" />
+  </Global>
+  <ImageLibrary />
+  <ModelLibrary />
+  <AudioLibrary />
+  <MazeItems>
+    <Walls />
+    <Floors />
+    <StaticModels />
+    <DynamicObjects />
+    <StartPositions />
+    <EndRegions />
+    <Lights />
+    <ActiveRegions />
+  </MazeItems>
+</MazeFile>
