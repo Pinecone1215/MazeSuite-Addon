@@ -17,6 +17,8 @@ class MenuBar(QMenuBar):
             QKeySequence(QKeySequence.StandardKey.Delete)
         )
         
+        self.export_action = QAction("export to .maz", self)
+        
         self.create_file_menu()
         self.create_edit_menu()
 
@@ -25,6 +27,7 @@ class MenuBar(QMenuBar):
         file_menu.addAction("new")
         file_menu.addAction("open")
         file_menu.addAction("save")
+        file_menu.addAction(self.export_action)
         file_menu.addAction("exit")
 
     def create_edit_menu(self):
