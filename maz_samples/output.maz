@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MazeFile version="2.0" url="http://www.mazesuite.com">
+  <Info>
+    <Author name="Anonymous" comments="" />
+  </Info>
+  <Global>
+    <Avatar scale="1" rotX="0" rotY="0" rotZ="0" />
+    <General />
+    <Speed moveSpeed="3" turnSpeed="45" />
+    <AmbientLight r="1" g="1" b="1" intensity="0.6" />
+    <StartMessage enabled="False" message="" />
+    <DefaultStartPosition />
+    <Timeout enabled="False" message="" timeoutValue="0" />
+    <PointOptions exitThreshold="0" exitThresholdOperator="GreaterThanEqual" messageText="" />
+    <PerspectiveSettings avatarHeight="0" cameraHeight="15" cameraMode="First-Person" fieldOfView="45" fixCameraX="False" fixedCameraX="20" fixCameraZ="False" fixedCameraZ="20" topDownOrientation="North" xRayRendering="False" />
+  </Global>
+  <ImageLibrary />
+  <ModelLibrary />
+  <AudioLibrary />
+  <MazeItems>
+    <Walls><Wall group="" label="" id="1" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-6.0" y="1" z="0.0" texX="1" texY="1" />
+        <MzPoint2 x="-6.0" y="-1" z="0.0" texX="1" texY="0" />
+        <MzPoint3 x="-6.0" y="-1" z="2.0" texX="0" texY="0" />
+        <MzPoint4 x="-6.0" y="1" z="2.0" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    <Wall group="" label="" id="2" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="12.0" y="1" z="6.0" texX="1" texY="1" />
+        <MzPoint2 x="12.0" y="-1" z="6.0" texX="1" texY="0" />
+        <MzPoint3 x="-6.0" y="-1" z="0.0" texX="0" texY="0" />
+        <MzPoint4 x="-6.0" y="1" z="0.0" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    <Wall group="" label="" id="3" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="12.0" y="1" z="8.0" texX="1" texY="1" />
+        <MzPoint2 x="12.0" y="-1" z="8.0" texX="1" texY="0" />
+        <MzPoint3 x="-6.0" y="-1" z="2.0" texX="0" texY="0" />
+        <MzPoint4 x="-6.0" y="1" z="2.0" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    <Wall group="" label="" id="4" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="12.0" y="1" z="20.0" texX="1" texY="1" />
+        <MzPoint2 x="12.0" y="-1" z="20.0" texX="1" texY="0" />
+        <MzPoint3 x="12.0" y="-1" z="8.0" texX="0" texY="0" />
+        <MzPoint4 x="12.0" y="1" z="8.0" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    <Wall group="" label="" id="5" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="20.0" y="1" z="20.0" texX="1" texY="1" />
+        <MzPoint2 x="20.0" y="-1" z="20.0" texX="1" texY="0" />
+        <MzPoint3 x="12.0" y="-1" z="20.0" texX="0" texY="0" />
+        <MzPoint4 x="12.0" y="1" z="20.0" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    <Wall group="" label="" id="6" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="20.0" y="1" z="6.0" texX="1" texY="1" />
+        <MzPoint2 x="20.0" y="-1" z="6.0" texX="1" texY="0" />
+        <MzPoint3 x="20.0" y="-1" z="20.0" texX="0" texY="0" />
+        <MzPoint4 x="20.0" y="1" z="20.0" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    <Wall group="" label="" id="7" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="32.0" y="1" z="-10.0" texX="1" texY="1" />
+        <MzPoint2 x="32.0" y="-1" z="-10.0" texX="1" texY="0" />
+        <MzPoint3 x="38.0" y="-1" z="-10.0" texX="0" texY="0" />
+        <MzPoint4 x="38.0" y="1" z="-10.0" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    <Wall group="" label="" id="8" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="38.0" y="1" z="-10.0" texX="1" texY="1" />
+        <MzPoint2 x="38.0" y="-1" z="-10.0" texX="1" texY="0" />
+        <MzPoint3 x="20.0" y="-1" z="6.0" texX="0" texY="0" />
+        <MzPoint4 x="20.0" y="1" z="6.0" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    <Wall group="" label="" id="9" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="14.0" y="1" z="6.0" texX="1" texY="1" />
+        <MzPoint2 x="14.0" y="-1" z="6.0" texX="1" texY="0" />
+        <MzPoint3 x="32.0" y="-1" z="-10.0" texX="0" texY="0" />
+        <MzPoint4 x="32.0" y="1" z="-10.0" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    <Wall group="" label="" id="10" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="14.0" y="1" z="-10.0" texX="1" texY="1" />
+        <MzPoint2 x="14.0" y="-1" z="-10.0" texX="1" texY="0" />
+        <MzPoint3 x="14.0" y="-1" z="6.0" texX="0" texY="0" />
+        <MzPoint4 x="14.0" y="1" z="6.0" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    <Wall group="" label="" id="11" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="12.0" y="1" z="-10.0" texX="1" texY="1" />
+        <MzPoint2 x="12.0" y="-1" z="-10.0" texX="1" texY="0" />
+        <MzPoint3 x="14.0" y="-1" z="-10.0" texX="0" texY="0" />
+        <MzPoint4 x="14.0" y="1" z="-10.0" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    <Wall group="" label="" id="12" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="12.0" y="1" z="-10.0" texX="1" texY="1" />
+        <MzPoint2 x="12.0" y="-1" z="-10.0" texX="1" texY="0" />
+        <MzPoint3 x="12.0" y="-1" z="6.0" texX="0" texY="0" />
+        <MzPoint4 x="12.0" y="1" z="6.0" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    </Walls>
+    <Floors />
+    <StaticModels />
+    <DynamicObjects />
+    <StartPositions />
+    <EndRegions><EndRegion group="" label="" id="1" itemLocked="False" itemVisible="True">
+        <MzCoord x1="9.12364825895063" x2="10.016847334214711" z1="5.249735292137155" z2="5.4994705842743095" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+    <EndRegion group="" label="" id="2" itemLocked="False" itemVisible="True">
+        <MzCoord x1="9.04729651790126" x2="10.833694668429425" z1="5.4994705842743095" z2="5.749205876411464" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+    <EndRegion group="" label="" id="3" itemLocked="False" itemVisible="True">
+        <MzCoord x1="8.97094477685189" x2="10.985976548776817" z1="5.749205876411463" z2="5.998941168548618" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+    <EndRegion group="" label="" id="4" itemLocked="False" itemVisible="True">
+        <MzCoord x1="8.89459303580252" x2="10.909624807727447" z1="5.998941168548619" z2="6.248676460685774" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+    <EndRegion group="" label="" id="5" itemLocked="False" itemVisible="True">
+        <MzCoord x1="8.81824129475315" x2="10.833273066678077" z1="6.248676460685773" z2="6.4984117528229275" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+    <EndRegion group="" label="" id="6" itemLocked="False" itemVisible="True">
+        <MzCoord x1="8.741889553703782" x2="10.756921325628708" z1="6.498411752822927" z2="6.748147044960081" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+    <EndRegion group="" label="" id="7" itemLocked="False" itemVisible="True">
+        <MzCoord x1="8.894171434051168" x2="10.680569584579338" z1="6.748147044960082" z2="6.997882337097237" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+    <EndRegion group="" label="" id="8" itemLocked="False" itemVisible="True">
+        <MzCoord x1="9.711018768265882" x2="10.604217843529966" z1="6.997882337097237" z2="7.247617629234392" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+    </EndRegions>
+    <Lights />
+    <ActiveRegions><ActiveRegion group="" label="" id="1" itemLocked="False" itemVisible="True">
+        <MzCoord x1="22.30654266929406" x2="23.562204888544446" z1="-1.3756082148843871" z2="-0.7512164297687741" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+    <ActiveRegion group="" label="" id="2" itemLocked="False" itemVisible="True">
+        <MzCoord x1="21.61308533858812" x2="24.124409777088893" z1="-0.7512164297687742" z2="-0.12682464465316123" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+    <ActiveRegion group="" label="" id="3" itemLocked="False" itemVisible="True">
+        <MzCoord x1="20.91962800788218" x2="24.686614665633336" z1="-0.12682464465316132" z2="0.49756714046245165" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+    <ActiveRegion group="" label="" id="4" itemLocked="False" itemVisible="True">
+        <MzCoord x1="20.226170677176242" x2="25.248819554177786" z1="0.49756714046245176" z2="1.1219589255780649" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+    <ActiveRegion group="" label="" id="5" itemLocked="False" itemVisible="True">
+        <MzCoord x1="19.645065683234794" x2="24.667714560236337" z1="1.1219589255780649" z2="1.746350710693678" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+    <ActiveRegion group="" label="" id="6" itemLocked="False" itemVisible="True">
+        <MzCoord x1="20.20727057177924" x2="23.974257229530394" z1="1.7463507106936775" z2="2.3707424958092904" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+    <ActiveRegion group="" label="" id="7" itemLocked="False" itemVisible="True">
+        <MzCoord x1="20.769475460323687" x2="23.28079989882446" z1="2.370742495809291" z2="2.995134280924904" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+    <ActiveRegion group="" label="" id="8" itemLocked="False" itemVisible="True">
+        <MzCoord x1="21.331680348868133" x2="22.58734256811852" z1="2.9951342809249035" z2="3.619526066040516" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+    </ActiveRegions>
+  </MazeItems>
+</MazeFile>
