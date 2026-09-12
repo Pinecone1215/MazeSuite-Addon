@@ -111,6 +111,19 @@ scene.selectionChanged.connect(update_selection)
 scene.changed.connect(update_properties)
 
 def export_maz():
+    path, _ = QFileDialog.getSaveFileName(
+        window,
+        "Export to .maz",
+        "",
+        "MAZ Files (*.maz)"
+    )
+    
+    if not path:
+        return
+
+    if not path.lower().endswith(".maz"):
+        path += ".maz"
+    
     geometry = MazGeometry(scene, 0.1)
     document = MazDocument()
 
@@ -123,7 +136,7 @@ def export_maz():
     for rectangles in geometry.items[EndRegionItem]:
         document.add_region('end', rectangles)
 
-    document.write('maz_samples/output.maz')
+    document.write(path)
 
 menu_bar.export_action.triggered.connect(export_maz)
 

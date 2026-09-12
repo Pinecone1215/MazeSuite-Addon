@@ -5,6 +5,7 @@ Created on Tue Sep  1 21:06:17 2026
 @author: Pinecone
 """
 
+import math
 from typing import TypeAlias
 from collections.abc import Callable
 
@@ -79,12 +80,13 @@ class MazGeometry:
         scan_line_bottom = QLineF(0, 0, 0, 0)
         
         rectangles: list[QRectF] = []
-        region_number = 10
-        height = (end_y - start_y) / region_number
+        
+        slice_height = 3
+        slice_count = math.ceil((end_y - start_y) / slice_height)
 
-        for i in range(region_number):
-            y_top = start_y + i * height
-            y_bottom = min(y_top + height, end_y)
+        for i in range(slice_count):
+            y_top = start_y + i * slice_height
+            y_bottom = min(y_top + slice_height, end_y)
         
             scan_line_up.setLine(
                 start_x, y_top,
