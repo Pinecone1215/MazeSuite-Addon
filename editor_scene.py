@@ -47,3 +47,8 @@ class EditorScene(QGraphicsScene):
     def delete_selected_items(self):
         for item in self.selectedItems():
             self.removeItem(item)
+            
+    def clear_editor_items(self):
+        for item in self.items():
+            if not isinstance(item, GridItem):
+                self.removeItem(item)

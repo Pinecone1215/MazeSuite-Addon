@@ -22,13 +22,19 @@ from pointer_tool import PointerTool
 from end_region_tool import EndRegionTool
 from properties_dock import PropertiesDock
 from active_region_tool import ActiveRegionTool
-from PySide6.QtWidgets import QApplication, QMainWindow
 
 from wall_item import WallItem
 from active_region_item import ActiveRegionItem
 from end_region_item import EndRegionItem
 from maz_document import MazDocument
 from maz_geometry import MazGeometry
+
+from editor_document import EditorDocument
+from PySide6.QtWidgets import (
+    QApplication,
+    QMainWindow,
+    QFileDialog
+)
 
 app = QApplication.instance()
 if app is None:
@@ -120,6 +126,40 @@ def export_maz():
     document.write('maz_samples/output.maz')
 
 menu_bar.export_action.triggered.connect(export_maz)
+
+def save_editor():
+    path, _ = QFileDialog.getSaveFileName(
+        window,
+        "Save Maze Geometry",
+        "",
+        "AMAZ Files (*.amaz)"
+    )
+
+    if not path:
+        return
+
+    if not path.lower().endswith(".amaz"):
+        path += ".amaz"
+    
+    doc = EditorDocument(scene)
+    doc.write(path)
+
+def open_editor():
+    path, _ = QFileDialog.getOpenFileName(
+        window,
+        "Open Maze Geometry",
+        "",
+        "AMAZ Files (*.amaz)"
+    )
+
+    if not path:
+        return
+    
+    doc = EditorDocument(scene)
+    doc.read(path)
+
+menu_bar.save_action.triggered.connect(save_editor)
+menu_bar.open_action.triggered.connect(open_editor)
 
 window.showMaximized()
 sys.exit(app.exec())

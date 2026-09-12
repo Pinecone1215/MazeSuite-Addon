@@ -19,14 +19,25 @@ class MenuBar(QMenuBar):
         
         self.export_action = QAction("export to .maz", self)
         
+        self.open_action = QAction("open", self)
+        self.save_action = QAction("save", self)
+        
+        self.open_action.setShortcut(
+            QKeySequence(QKeySequence.StandardKey.Open)
+        )
+
+        self.save_action.setShortcut(
+            QKeySequence(QKeySequence.StandardKey.Save)
+        )
+        
         self.create_file_menu()
         self.create_edit_menu()
 
     def create_file_menu(self):
         file_menu = self.addMenu("file")
         file_menu.addAction("new")
-        file_menu.addAction("open")
-        file_menu.addAction("save")
+        file_menu.addAction(self.open_action)
+        file_menu.addAction(self.save_action)
         file_menu.addAction(self.export_action)
         file_menu.addAction("exit")
 
