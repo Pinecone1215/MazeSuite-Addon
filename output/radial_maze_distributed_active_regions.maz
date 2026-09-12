@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <MazeFile version="2.0" url="http://www.mazesuite.com">
   <Info>
     <Author name="Anonymous" comments="" />
@@ -9,238 +9,241 @@
     <Speed moveSpeed="3" turnSpeed="45" />
     <AmbientLight r="1" g="1" b="1" intensity="0.6" />
     <StartMessage enabled="False" message="" />
-    <DefaultStartPosition />
+    <DefaultStartPosition id="1" />
     <Timeout enabled="False" message="" timeoutValue="0" />
     <PointOptions exitThreshold="0" exitThresholdOperator="GreaterThanEqual" messageText="" />
     <PerspectiveSettings avatarHeight="0" cameraHeight="15" cameraMode="First-Person" fieldOfView="45" fixCameraX="False" fixedCameraX="20" fixCameraZ="False" fixedCameraZ="20" topDownOrientation="North" xRayRendering="False" />
   </Global>
-  <ImageLibrary />
+  <ImageLibrary>
+    <Image id="100" file="..\..\MazeSuite\Library\wall_bricks.jpg" />
+    <Image id="101" file="..\..\MazeSuite\Library\ground_grass.jpg" />
+  </ImageLibrary>
   <ModelLibrary />
   <AudioLibrary />
   <MazeItems>
     <Walls>
       <Wall group="" label="" id="1" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="3.9612872" y="1" z="-8.8548474" texX="1" texY="1" />
-        <MzPoint2 x="3.9612872" y="-1" z="-8.8548474" texX="1" texY="0" />
+        <MzPoint1 x="3.9612872" y="1" z="-8.8548474" texX="28.1300222515722" texY="2" />
+        <MzPoint2 x="3.9612872" y="-1" z="-8.8548474" texX="28.1300222515722" texY="0" />
         <MzPoint3 x="20.4956995" y="-1" z="-31.6125134" texX="0" texY="0" />
-        <MzPoint4 x="20.4956995" y="1" z="-31.6125134" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="20.4956995" y="1" z="-31.6125134" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="2" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="20.4956995" y="1" z="-31.6125134" texX="1" texY="1" />
-        <MzPoint2 x="20.4956995" y="-1" z="-31.6125134" texX="1" texY="0" />
+        <MzPoint1 x="20.4956995" y="1" z="-31.6125134" texX="4.00000001281313" texY="2" />
+        <MzPoint2 x="20.4956995" y="-1" z="-31.6125134" texX="4.00000001281313" texY="0" />
         <MzPoint3 x="23.7317675" y="-1" z="-29.2613724" texX="0" texY="0" />
-        <MzPoint4 x="23.7317675" y="1" z="-29.2613724" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="23.7317675" y="1" z="-29.2613724" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="3" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="23.7317675" y="1" z="-29.2613724" texX="1" texY="1" />
-        <MzPoint2 x="23.7317675" y="-1" z="-29.2613724" texX="1" texY="0" />
+        <MzPoint1 x="23.7317675" y="1" z="-29.2613724" texX="28.1300223324739" texY="2" />
+        <MzPoint2 x="23.7317675" y="-1" z="-29.2613724" texX="28.1300223324739" texY="0" />
         <MzPoint3 x="7.1973552" y="-1" z="-6.5037063" texX="0" texY="0" />
-        <MzPoint4 x="7.1973552" y="1" z="-6.5037063" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="7.1973552" y="1" z="-6.5037063" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="4" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="7.1973552" y="1" z="-6.5037064" texX="1" texY="1" />
-        <MzPoint2 x="7.1973552" y="-1" z="-6.5037064" texX="1" texY="0" />
+        <MzPoint1 x="7.1973552" y="1" z="-6.5037064" texX="7.92257450859273" texY="2" />
+        <MzPoint2 x="7.1973552" y="-1" z="-6.5037064" texX="7.92257450859273" texY="0" />
         <MzPoint3 x="9.6455654" y="-1" z="1.0311097" texX="0" texY="0" />
-        <MzPoint4 x="9.6455654" y="1" z="1.0311097" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="9.6455654" y="1" z="1.0311097" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="5" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="9.6455653" y="1" z="1.0311097" texX="1" texY="1" />
-        <MzPoint2 x="9.6455653" y="-1" z="1.0311097" texX="1" texY="0" />
+        <MzPoint1 x="9.6455653" y="1" z="1.0311097" texX="28.1300224014087" texY="2" />
+        <MzPoint2 x="9.6455653" y="-1" z="1.0311097" texX="28.1300224014087" texY="0" />
         <MzPoint3 x="36.3988064" y="-1" z="9.7237647" texX="0" texY="0" />
-        <MzPoint4 x="36.3988064" y="1" z="9.7237647" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="36.3988064" y="1" z="9.7237647" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="6" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="36.3988064" y="1" z="9.7237647" texX="1" texY="1" />
-        <MzPoint2 x="36.3988064" y="-1" z="9.7237647" texX="1" texY="0" />
+        <MzPoint1 x="36.3988064" y="1" z="9.7237647" texX="3.9999999449625" texY="2" />
+        <MzPoint2 x="36.3988064" y="-1" z="9.7237647" texX="3.9999999449625" texY="0" />
         <MzPoint3 x="35.1627384" y="-1" z="13.5279907" texX="0" texY="0" />
-        <MzPoint4 x="35.1627384" y="1" z="13.5279907" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="35.1627384" y="1" z="13.5279907" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="7" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="35.1627384" y="1" z="13.5279907" texX="1" texY="1" />
-        <MzPoint2 x="35.1627384" y="-1" z="13.5279907" texX="1" texY="0" />
+        <MzPoint1 x="35.1627384" y="1" z="13.5279907" texX="28.1300222754013" texY="2" />
+        <MzPoint2 x="35.1627384" y="-1" z="13.5279907" texX="28.1300222754013" texY="0" />
         <MzPoint3 x="8.4094974" y="-1" z="4.8353358" texX="0" texY="0" />
-        <MzPoint4 x="8.4094974" y="1" z="4.8353358" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="8.4094974" y="1" z="4.8353358" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="8" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="8.4094974" y="1" z="4.8353358" texX="1" texY="1" />
-        <MzPoint2 x="8.4094974" y="-1" z="4.8353358" texX="1" texY="0" />
+        <MzPoint1 x="8.4094974" y="1" z="4.8353358" texX="7.92257446200467" texY="2" />
+        <MzPoint2 x="8.4094974" y="-1" z="4.8353358" texX="7.92257446200467" texY="0" />
         <MzPoint3 x="2" y="-1" z="9.4921082" texX="0" texY="0" />
-        <MzPoint4 x="2" y="1" z="9.4921082" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="2" y="1" z="9.4921082" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="9" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="2" y="1" z="9.4921082" texX="1" texY="1" />
-        <MzPoint2 x="2" y="-1" z="9.4921082" texX="1" texY="0" />
+        <MzPoint1 x="2" y="1" z="9.4921082" texX="28.1300223" texY="2" />
+        <MzPoint2 x="2" y="-1" z="9.4921082" texX="28.1300223" texY="0" />
         <MzPoint3 x="2" y="-1" z="37.6221305" texX="0" texY="0" />
-        <MzPoint4 x="2" y="1" z="37.6221305" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="2" y="1" z="37.6221305" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="11" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="-2" y="1" z="37.6221305" texX="1" texY="1" />
-        <MzPoint2 x="-2" y="-1" z="37.6221305" texX="1" texY="0" />
+        <MzPoint1 x="-2" y="1" z="37.6221305" texX="28.1300223" texY="2" />
+        <MzPoint2 x="-2" y="-1" z="37.6221305" texX="28.1300223" texY="0" />
         <MzPoint3 x="-2" y="-1" z="9.4921082" texX="0" texY="0" />
-        <MzPoint4 x="-2" y="1" z="9.4921082" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="-2" y="1" z="9.4921082" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="12" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="-2" y="1" z="9.4921082" texX="1" texY="1" />
-        <MzPoint2 x="-2" y="-1" z="9.4921082" texX="1" texY="0" />
+        <MzPoint1 x="-2" y="1" z="9.4921082" texX="7.92257446200467" texY="2" />
+        <MzPoint2 x="-2" y="-1" z="9.4921082" texX="7.92257446200467" texY="0" />
         <MzPoint3 x="-8.4094974" y="-1" z="4.8353358" texX="0" texY="0" />
-        <MzPoint4 x="-8.4094974" y="1" z="4.8353358" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="-8.4094974" y="1" z="4.8353358" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="13" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="-8.4094974" y="1" z="4.8353358" texX="1" texY="1" />
-        <MzPoint2 x="-8.4094974" y="-1" z="4.8353358" texX="1" texY="0" />
+        <MzPoint1 x="-8.4094974" y="1" z="4.8353358" texX="28.1300222754013" texY="2" />
+        <MzPoint2 x="-8.4094974" y="-1" z="4.8353358" texX="28.1300222754013" texY="0" />
         <MzPoint3 x="-35.1627384" y="-1" z="13.5279907" texX="0" texY="0" />
-        <MzPoint4 x="-35.1627384" y="1" z="13.5279907" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="-35.1627384" y="1" z="13.5279907" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="14" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="-35.1627384" y="1" z="13.5279907" texX="1" texY="1" />
-        <MzPoint2 x="-35.1627384" y="-1" z="13.5279907" texX="1" texY="0" />
+        <MzPoint1 x="-35.1627384" y="1" z="13.5279907" texX="3.9999999449625" texY="2" />
+        <MzPoint2 x="-35.1627384" y="-1" z="13.5279907" texX="3.9999999449625" texY="0" />
         <MzPoint3 x="-36.3988064" y="-1" z="9.7237647" texX="0" texY="0" />
-        <MzPoint4 x="-36.3988064" y="1" z="9.7237647" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="-36.3988064" y="1" z="9.7237647" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="15" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="-36.3988064" y="1" z="9.7237647" texX="1" texY="1" />
-        <MzPoint2 x="-36.3988064" y="-1" z="9.7237647" texX="1" texY="0" />
+        <MzPoint1 x="-36.3988064" y="1" z="9.7237647" texX="28.1300224014087" texY="2" />
+        <MzPoint2 x="-36.3988064" y="-1" z="9.7237647" texX="28.1300224014087" texY="0" />
         <MzPoint3 x="-9.6455653" y="-1" z="1.0311097" texX="0" texY="0" />
-        <MzPoint4 x="-9.6455653" y="1" z="1.0311097" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="-9.6455653" y="1" z="1.0311097" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="16" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="-9.6455654" y="1" z="1.0311097" texX="1" texY="1" />
-        <MzPoint2 x="-9.6455654" y="-1" z="1.0311097" texX="1" texY="0" />
+        <MzPoint1 x="-9.6455654" y="1" z="1.0311097" texX="7.92257450859273" texY="2" />
+        <MzPoint2 x="-9.6455654" y="-1" z="1.0311097" texX="7.92257450859273" texY="0" />
         <MzPoint3 x="-7.1973552" y="-1" z="-6.5037064" texX="0" texY="0" />
-        <MzPoint4 x="-7.1973552" y="1" z="-6.5037064" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="-7.1973552" y="1" z="-6.5037064" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="17" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="-7.1973552" y="1" z="-6.5037063" texX="1" texY="1" />
-        <MzPoint2 x="-7.1973552" y="-1" z="-6.5037063" texX="1" texY="0" />
+        <MzPoint1 x="-7.1973552" y="1" z="-6.5037063" texX="28.1300223324739" texY="2" />
+        <MzPoint2 x="-7.1973552" y="-1" z="-6.5037063" texX="28.1300223324739" texY="0" />
         <MzPoint3 x="-23.7317675" y="-1" z="-29.2613724" texX="0" texY="0" />
-        <MzPoint4 x="-23.7317675" y="1" z="-29.2613724" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="-23.7317675" y="1" z="-29.2613724" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="18" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="-23.7317675" y="1" z="-29.2613724" texX="1" texY="1" />
-        <MzPoint2 x="-23.7317675" y="-1" z="-29.2613724" texX="1" texY="0" />
+        <MzPoint1 x="-23.7317675" y="1" z="-29.2613724" texX="4.00000001281313" texY="2" />
+        <MzPoint2 x="-23.7317675" y="-1" z="-29.2613724" texX="4.00000001281313" texY="0" />
         <MzPoint3 x="-20.4956995" y="-1" z="-31.6125134" texX="0" texY="0" />
-        <MzPoint4 x="-20.4956995" y="1" z="-31.6125134" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="-20.4956995" y="1" z="-31.6125134" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="19" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="-20.4956995" y="1" z="-31.6125134" texX="1" texY="1" />
-        <MzPoint2 x="-20.4956995" y="-1" z="-31.6125134" texX="1" texY="0" />
+        <MzPoint1 x="-20.4956995" y="1" z="-31.6125134" texX="28.1300222515722" texY="2" />
+        <MzPoint2 x="-20.4956995" y="-1" z="-31.6125134" texX="28.1300222515722" texY="0" />
         <MzPoint3 x="-3.9612872" y="-1" z="-8.8548474" texX="0" texY="0" />
-        <MzPoint4 x="-3.9612872" y="1" z="-8.8548474" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="-3.9612872" y="1" z="-8.8548474" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="20" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="-3.9612872" y="1" z="-8.8548474" texX="1" texY="1" />
-        <MzPoint2 x="-3.9612872" y="-1" z="-8.8548474" texX="1" texY="0" />
+        <MzPoint1 x="-3.9612872" y="1" z="-8.8548474" texX="7.9225744" texY="2" />
+        <MzPoint2 x="-3.9612872" y="-1" z="-8.8548474" texX="7.9225744" texY="0" />
         <MzPoint3 x="3.9612872" y="-1" z="-8.8548474" texX="0" texY="0" />
-        <MzPoint4 x="3.9612872" y="1" z="-8.8548474" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="3.9612872" y="1" z="-8.8548474" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="21" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="3.5272531" y="1" z="-4.8548474" texX="1" texY="1" />
-        <MzPoint2 x="3.5272531" y="-1" z="-4.8548474" texX="1" texY="0" />
+        <MzPoint1 x="3.5272531" y="1" z="-4.8548474" texX="7.05450620795135" texY="2" />
+        <MzPoint2 x="3.5272531" y="-1" z="-4.8548474" texX="7.05450620795135" texY="0" />
         <MzPoint3 x="5.7072154" y="-1" z="1.8543867" texX="0" texY="0" />
-        <MzPoint4 x="5.7072154" y="1" z="1.8543867" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="5.7072154" y="1" z="1.8543867" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="22" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="5.7072154" y="1" z="1.8543867" texX="1" texY="1" />
-        <MzPoint2 x="5.7072154" y="-1" z="1.8543867" texX="1" texY="0" />
+        <MzPoint1 x="5.7072154" y="1" z="1.8543867" texX="7.05450619393741" texY="2" />
+        <MzPoint2 x="5.7072154" y="-1" z="1.8543867" texX="7.05450619393741" texY="0" />
         <MzPoint3 x="0" y="-1" z="6.0009214" texX="0" texY="0" />
-        <MzPoint4 x="0" y="1" z="6.0009214" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="0" y="1" z="6.0009214" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="23" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="0" y="1" z="6.0009214" texX="1" texY="1" />
-        <MzPoint2 x="0" y="-1" z="6.0009214" texX="1" texY="0" />
+        <MzPoint1 x="0" y="1" z="6.0009214" texX="7.05450619393741" texY="2" />
+        <MzPoint2 x="0" y="-1" z="6.0009214" texX="7.05450619393741" texY="0" />
         <MzPoint3 x="-5.7072154" y="-1" z="1.8543867" texX="0" texY="0" />
-        <MzPoint4 x="-5.7072154" y="1" z="1.8543867" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="-5.7072154" y="1" z="1.8543867" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="24" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="-5.7072154" y="1" z="1.8543867" texX="1" texY="1" />
-        <MzPoint2 x="-5.7072154" y="-1" z="1.8543867" texX="1" texY="0" />
+        <MzPoint1 x="-5.7072154" y="1" z="1.8543867" texX="7.05450620795135" texY="2" />
+        <MzPoint2 x="-5.7072154" y="-1" z="1.8543867" texX="7.05450620795135" texY="0" />
         <MzPoint3 x="-3.5272531" y="-1" z="-4.8548474" texX="0" texY="0" />
-        <MzPoint4 x="-3.5272531" y="1" z="-4.8548474" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="-3.5272531" y="1" z="-4.8548474" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="25" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="-3.5272531" y="1" z="-4.8548474" texX="1" texY="1" />
-        <MzPoint2 x="-3.5272531" y="-1" z="-4.8548474" texX="1" texY="0" />
+        <MzPoint1 x="-3.5272531" y="1" z="-4.8548474" texX="7.0545062" texY="2" />
+        <MzPoint2 x="-3.5272531" y="-1" z="-4.8548474" texX="7.0545062" texY="0" />
         <MzPoint3 x="3.5272531" y="-1" z="-4.8548474" texX="0" texY="0" />
-        <MzPoint4 x="3.5272531" y="1" z="-4.8548474" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="3.5272531" y="1" z="-4.8548474" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
       <Wall group="" label="" id="10" itemLocked="False" itemVisible="True">
-        <MzPoint1 x="1.99999998402362" y="1" z="37.6221295487713" texX="1" texY="1" />
-        <MzPoint2 x="1.99999998402362" y="-1" z="37.6221295487713" texX="1" texY="0" />
+        <MzPoint1 x="1.99999998402362" y="1" z="37.6221295487713" texX="3.99999996804724" texY="2" />
+        <MzPoint2 x="1.99999998402362" y="-1" z="37.6221295487713" texX="3.99999996804724" texY="0" />
         <MzPoint3 x="-1.99999998402362" y="-1" z="37.6221295487713" texX="0" texY="0" />
-        <MzPoint4 x="-1.99999998402362" y="1" z="37.6221295487713" texX="0" texY="1" />
-        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <MzPoint4 x="-1.99999998402362" y="1" z="37.6221295487713" texX="0" texY="2" />
+        <Texture id="100" aspectRatio="1" flip="False" mode="Tile" rotation="3" tileSize="1" />
         <Color r="1" g="1" b="1" />
         <Appearance visible="True" />
       </Wall>
@@ -248,17 +251,23 @@
     <Floors>
       <Floor group="" label="" id="1" itemLocked="False" itemVisible="True">
         <MzPoint1 x="-40" y="-1" z="-36" texX="0" texY="0" texX_Ceiling="0" texY_Ceiling="0" />
-        <MzPoint2 x="40" y="-1" z="-36" texX="0" texY="1" texX_Ceiling="0" texY_Ceiling="1" />
-        <MzPoint3 x="40" y="-1" z="42" texX="1" texY="1" texX_Ceiling="1" texY_Ceiling="1" />
-        <MzPoint4 x="-40" y="-1" z="42" texX="1" texY="0" texX_Ceiling="1" texY_Ceiling="0" />
+        <MzPoint2 x="40" y="-1" z="-36" texX="0" texY="80" texX_Ceiling="0" texY_Ceiling="1" />
+        <MzPoint3 x="40" y="-1" z="42" texX="78" texY="80" texX_Ceiling="1" texY_Ceiling="1" />
+        <MzPoint4 x="-40" y="-1" z="42" texX="78" texY="0" texX_Ceiling="1" texY_Ceiling="0" />
         <FloorColor r="1" g="1" b="1" />
+        <FloorTexture id="101" aspectRatio="1" mode="Tile" rotation="1" tileSize="1" />
         <CeilingColor r="1" g="1" b="1" />
         <Appearance hasCeiling="True" ceilingHeight="2" visible="True" />
       </Floor>
     </Floors>
     <StaticModels />
     <DynamicObjects />
-    <StartPositions />
+    <StartPositions>
+      <StartPosition group="" label="" id="1" itemLocked="False" itemVisible="True">
+        <MzPoint x="-20.8823529411765" y="0" z="-28.5882352941176" />
+        <ViewAngle angle="0" vertAngle="0" randomAngle="False" randomVertAngle="False" />
+      </StartPosition>
+    </StartPositions>
     <EndRegions>
       <EndRegion group="end_region_01" label="" id="1" itemLocked="False" itemVisible="True">
         <MzCoord x1="-2" x2="2" z1="35.6" z2="37.6" y1="-1" y2="1" />
