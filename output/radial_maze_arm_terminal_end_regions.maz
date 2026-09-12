@@ -423,6 +423,1132 @@
       </EndRegion>
     </EndRegions>
     <Lights />
-    <ActiveRegions />
+    <ActiveRegions>
+      <ActiveRegion group="active_region_01" label="" id="1" itemLocked="False" itemVisible="True">
+        <MzCoord x1="2.977559" x2="3.955132" z1="-8.487156" z2="-8.187156" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_01" label="" id="2" itemLocked="False" itemVisible="True">
+        <MzCoord x1="2.951312" x2="3.928885" z1="-8.187156" z2="-7.887156" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_01" label="" id="3" itemLocked="False" itemVisible="True">
+        <MzCoord x1="2.925066" x2="3.902639" z1="-7.887156" z2="-7.587156" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_01" label="" id="4" itemLocked="False" itemVisible="True">
+        <MzCoord x1="2.898819" x2="3.876392" z1="-7.587156" z2="-7.287156" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_01" label="" id="5" itemLocked="False" itemVisible="True">
+        <MzCoord x1="2.872572" x2="3.850146" z1="-7.287156" z2="-6.987156" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_01" label="" id="6" itemLocked="False" itemVisible="True">
+        <MzCoord x1="2.846326" x2="3.823899" z1="-6.987156" z2="-6.687156" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_01" label="" id="7" itemLocked="False" itemVisible="True">
+        <MzCoord x1="2.820079" x2="3.797652" z1="-6.687156" z2="-6.387156" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_01" label="" id="8" itemLocked="False" itemVisible="True">
+        <MzCoord x1="2.793833" x2="3.771406" z1="-6.387156" z2="-6.087156" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_01" label="" id="9" itemLocked="False" itemVisible="True">
+        <MzCoord x1="2.767586" x2="3.745159" z1="-6.087156" z2="-5.787156" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_01" label="" id="10" itemLocked="False" itemVisible="True">
+        <MzCoord x1="2.741339" x2="3.718913" z1="-5.787156" z2="-5.487156" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_01" label="" id="11" itemLocked="False" itemVisible="True">
+        <MzCoord x1="2.715093" x2="3.692666" z1="-5.487156" z2="-5.187156" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_02" label="" id="12" itemLocked="False" itemVisible="True">
+        <MzCoord x1="6.356307" x2="7.163687" z1="-6.204926" z2="-5.904925" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_02" label="" id="13" itemLocked="False" itemVisible="True">
+        <MzCoord x1="5.682496" x2="7.297256" z1="-5.904925" z2="-5.604926" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_02" label="" id="14" itemLocked="False" itemVisible="True">
+        <MzCoord x1="5.008685" x2="6.793468" z1="-5.604926" z2="-5.304925" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_02" label="" id="15" itemLocked="False" itemVisible="True">
+        <MzCoord x1="4.334874" x2="6.119657" z1="-5.304925" z2="-5.004926" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_02" label="" id="16" itemLocked="False" itemVisible="True">
+        <MzCoord x1="3.781376" x2="5.445845" z1="-5.004926" z2="-4.704926" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_02" label="" id="17" itemLocked="False" itemVisible="True">
+        <MzCoord x1="3.914944" x2="4.772034" z1="-4.704926" z2="-4.404925" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_02" label="" id="18" itemLocked="False" itemVisible="True">
+        <MzCoord x1="4.048513" x2="4.5" z1="-4.404925" z2="-4.2" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_03" label="" id="19" itemLocked="False" itemVisible="True">
+        <MzCoord x1="4.432037" x2="5.062914" z1="-9.25" z2="-8.95" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_03" label="" id="20" itemLocked="False" itemVisible="True">
+        <MzCoord x1="4.214075" x2="5.475829" z1="-8.95" z2="-8.65" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_03" label="" id="21" itemLocked="False" itemVisible="True">
+        <MzCoord x1="4.600357" x2="5.888744" z1="-8.65" z2="-8.35" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_03" label="" id="22" itemLocked="False" itemVisible="True">
+        <MzCoord x1="5.013271" x2="6.301658" z1="-8.35" z2="-8.05" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_03" label="" id="23" itemLocked="False" itemVisible="True">
+        <MzCoord x1="5.426186" x2="6.714573" z1="-8.05" z2="-7.75" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_03" label="" id="24" itemLocked="False" itemVisible="True">
+        <MzCoord x1="5.8391" x2="7.127488" z1="-7.75" z2="-7.45" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_03" label="" id="25" itemLocked="False" itemVisible="True">
+        <MzCoord x1="6.252015" x2="7.47975" z1="-7.45" z2="-7.15" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_03" label="" id="26" itemLocked="False" itemVisible="True">
+        <MzCoord x1="6.664929" x2="7.261786" z1="-7.15" z2="-6.85" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_04" label="" id="27" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-5.019552" x2="-4.388674" z1="-9.224806" z2="-8.924806" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_04" label="" id="28" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-5.432467" x2="-4.170712" z1="-8.924806" z2="-8.624805" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_04" label="" id="29" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-5.845381" x2="-4.556994" z1="-8.624805" z2="-8.324805" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_04" label="" id="30" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-6.258296" x2="-4.969908" z1="-8.324805" z2="-8.024805" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_04" label="" id="31" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-6.67121" x2="-5.382823" z1="-8.024805" z2="-7.724805" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_04" label="" id="32" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-7.084125" x2="-5.795738" z1="-7.724805" z2="-7.424806" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_04" label="" id="33" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-7.436387" x2="-6.208652" z1="-7.424806" z2="-7.124805" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_04" label="" id="34" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-7.218424" x2="-6.621567" z1="-7.124805" z2="-6.824805" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_05" label="" id="35" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-3.942446" x2="-2.968469" z1="-8.5" z2="-8.2" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_05" label="" id="36" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-3.910914" x2="-2.936938" z1="-8.2" z2="-7.9" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_05" label="" id="37" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-3.879383" x2="-2.905406" z1="-7.9" z2="-7.6" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_05" label="" id="38" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-3.847852" x2="-2.873875" z1="-7.6" z2="-7.3" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_05" label="" id="39" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-3.816321" x2="-2.842344" z1="-7.3" z2="-7" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_05" label="" id="40" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-3.784789" x2="-2.810812" z1="-7" z2="-6.7" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_05" label="" id="41" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-3.753258" x2="-2.779281" z1="-6.7" z2="-6.4" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_05" label="" id="42" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-3.721727" x2="-2.74775" z1="-6.4" z2="-6.1" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_05" label="" id="43" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-3.690196" x2="-2.716218" z1="-6.1" z2="-5.8" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_05" label="" id="44" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-3.658664" x2="-2.684687" z1="-5.8" z2="-5.5" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_05" label="" id="45" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-3.627133" x2="-2.653156" z1="-5.5" z2="-5.2" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_06" label="" id="46" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-7.133569" x2="-6.326189" z1="-6.2" z2="-5.9" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_06" label="" id="47" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-7.267137" x2="-5.652378" z1="-5.9" z2="-5.6" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_06" label="" id="48" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-6.763349" x2="-4.978567" z1="-5.6" z2="-5.3" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_06" label="" id="49" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-6.089538" x2="-4.304756" z1="-5.3" z2="-5" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_06" label="" id="50" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-5.415727" x2="-3.751257" z1="-5" z2="-4.7" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_06" label="" id="51" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-4.741916" x2="-3.884826" z1="-4.7" z2="-4.4" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_06" label="" id="52" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-4.3" x2="-4.018394" z1="-4.4" z2="-4.2" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_07" label="" id="53" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-9.358315" x2="-7.756634" z1="0.45" z2="0.75" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_07" label="" id="54" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-9.416628" x2="-6.213268" z1="0.75" z2="1.05" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_07" label="" id="55" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-8.367378" x2="-5.764005" z1="1.05" z2="1.35" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_07" label="" id="56" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-6.824012" x2="-5.822319" z1="1.35" z2="1.65" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_08" label="" id="57" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-10.39882" x2="-9.444831" z1="1.422074" z2="1.722074" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_08" label="" id="58" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-10.30134" x2="-9.347355" z1="1.722074" z2="2.022074" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_08" label="" id="59" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-10.20387" x2="-9.249879" z1="2.022074" z2="2.322074" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_08" label="" id="60" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-10.10639" x2="-9.152403" z1="2.322074" z2="2.622074" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_08" label="" id="61" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-10.00891" x2="-9.054927" z1="2.622074" z2="2.922074" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_08" label="" id="62" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-9.911437" x2="-8.957451" z1="2.922074" z2="3.222074" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_08" label="" id="63" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-9.813961" x2="-8.859975" z1="3.222074" z2="3.522074" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_08" label="" id="64" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-9.716485" x2="-8.762499" z1="3.522074" z2="3.822074" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_08" label="" id="65" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-9.61901" x2="-8.665023" z1="3.822074" z2="4.122074" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_08" label="" id="66" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-9.521534" x2="-8.567547" z1="4.122074" z2="4.422074" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_08" label="" id="67" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-9.424058" x2="-8.648516" z1="4.422074" z2="4.722074" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_09" label="" id="69" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-6.144338" x2="-5.541033" z1="2.200364" z2="2.500364" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_09" label="" id="70" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-6.414459" x2="-5.338948" z1="2.500364" z2="2.800364" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_09" label="" id="71" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-6.68458" x2="-5.609069" z1="2.800364" z2="3.100364" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_09" label="" id="72" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-6.954701" x2="-5.87919" z1="3.100364" z2="3.400364" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_09" label="" id="73" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-7.224823" x2="-6.149312" z1="3.400364" z2="3.700364" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_09" label="" id="74" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-7.494944" x2="-6.419433" z1="3.700364" z2="4.000364" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_09" label="" id="75" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-7.765065" x2="-6.689554" z1="4.000364" z2="4.300364" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_09" label="" id="76" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-8.035187" x2="-6.959675" z1="4.300364" z2="4.600364" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_09" label="" id="77" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-8.071942" x2="-7.229796" z1="4.600364" z2="4.900364" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_09" label="" id="78" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-7.738759" x2="-7.499918" z1="4.900364" z2="5.200364" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_10" label="" id="79" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-1.8" x2="1.8" z1="9.4" z2="10.4" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_11" label="" id="84" itemLocked="False" itemVisible="True">
+        <MzCoord x1="0.3587857" x2="1.066293" z1="5.95" z2="6.25" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_11" label="" id="85" itemLocked="False" itemVisible="True">
+        <MzCoord x1="0.2555241" x2="1.232585" z1="6.25" z2="6.55" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_11" label="" id="86" itemLocked="False" itemVisible="True">
+        <MzCoord x1="0.4218168" x2="1.398878" z1="6.55" z2="6.85" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_11" label="" id="87" itemLocked="False" itemVisible="True">
+        <MzCoord x1="0.5881095" x2="1.565171" z1="6.85" z2="7.15" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_11" label="" id="88" itemLocked="False" itemVisible="True">
+        <MzCoord x1="0.7544022" x2="1.731464" z1="7.15" z2="7.45" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_11" label="" id="89" itemLocked="False" itemVisible="True">
+        <MzCoord x1="0.9206949" x2="1.897756" z1="7.45" z2="7.75" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_11" label="" id="90" itemLocked="False" itemVisible="True">
+        <MzCoord x1="1.086988" x2="2.064049" z1="7.75" z2="8.05" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_11" label="" id="91" itemLocked="False" itemVisible="True">
+        <MzCoord x1="1.25328" x2="2.230342" z1="8.05" z2="8.35" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_11" label="" id="92" itemLocked="False" itemVisible="True">
+        <MzCoord x1="1.419573" x2="2.396634" z1="8.35" z2="8.65" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_11" label="" id="93" itemLocked="False" itemVisible="True">
+        <MzCoord x1="1.585866" x2="2.562927" z1="8.65" z2="8.95" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_11" label="" id="94" itemLocked="False" itemVisible="True">
+        <MzCoord x1="1.752159" x2="2.03729" z1="8.95" z2="9.25" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_12" label="" id="95" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-1.040912" x2="-0.3334054" z1="5.96519" z2="6.265191" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_12" label="" id="96" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-1.207205" x2="-0.2301438" z1="6.265191" z2="6.56519" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_12" label="" id="97" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-1.373498" x2="-0.3964365" z1="6.56519" z2="6.865191" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_12" label="" id="98" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-1.539791" x2="-0.5627292" z1="6.865191" z2="7.16519" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_12" label="" id="99" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-1.706083" x2="-0.7290219" z1="7.16519" z2="7.46519" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_12" label="" id="100" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-1.872376" x2="-0.8953146" z1="7.46519" z2="7.765191" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_12" label="" id="101" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-2.038669" x2="-1.061607" z1="7.765191" z2="8.06519" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_12" label="" id="102" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-2.204962" x2="-1.2279" z1="8.06519" z2="8.365191" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_12" label="" id="103" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-2.371254" x2="-1.394193" z1="8.365191" z2="8.665191" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_12" label="" id="104" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-2.537547" x2="-1.560485" z1="8.665191" z2="8.96519" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_12" label="" id="105" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-2.011909" x2="-1.726778" z1="8.96519" z2="9.26519" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_13" label="" id="106" itemLocked="False" itemVisible="True">
+        <MzCoord x1="9.401467" x2="10.35545" z1="1.440983" z2="1.740983" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_13" label="" id="107" itemLocked="False" itemVisible="True">
+        <MzCoord x1="9.303991" x2="10.25798" z1="1.740983" z2="2.040983" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_13" label="" id="108" itemLocked="False" itemVisible="True">
+        <MzCoord x1="9.206515" x2="10.1605" z1="2.040983" z2="2.340983" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_13" label="" id="109" itemLocked="False" itemVisible="True">
+        <MzCoord x1="9.10904" x2="10.06303" z1="2.340983" z2="2.640983" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_13" label="" id="110" itemLocked="False" itemVisible="True">
+        <MzCoord x1="9.011564" x2="9.96555" z1="2.640983" z2="2.940983" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_13" label="" id="111" itemLocked="False" itemVisible="True">
+        <MzCoord x1="8.914088" x2="9.868074" z1="2.940983" z2="3.240983" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_13" label="" id="112" itemLocked="False" itemVisible="True">
+        <MzCoord x1="8.816612" x2="9.770598" z1="3.240983" z2="3.540983" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_13" label="" id="113" itemLocked="False" itemVisible="True">
+        <MzCoord x1="8.719136" x2="9.673122" z1="3.540983" z2="3.840983" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_13" label="" id="114" itemLocked="False" itemVisible="True">
+        <MzCoord x1="8.62166" x2="9.575646" z1="3.840983" z2="4.140983" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_13" label="" id="115" itemLocked="False" itemVisible="True">
+        <MzCoord x1="8.524184" x2="9.47817" z1="4.140983" z2="4.440983" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_13" label="" id="116" itemLocked="False" itemVisible="True">
+        <MzCoord x1="8.605153" x2="9.380694" z1="4.440983" z2="4.740983" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_14" label="" id="118" itemLocked="False" itemVisible="True">
+        <MzCoord x1="7.857757" x2="9.332913" z1="0.4807267" z2="0.7807267" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_14" label="" id="119" itemLocked="False" itemVisible="True">
+        <MzCoord x1="6.446368" x2="9.39668" z1="0.7807267" z2="1.080727" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_14" label="" id="120" itemLocked="False" itemVisible="True">
+        <MzCoord x1="5.741554" x2="8.433324" z1="1.080727" z2="1.380727" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_14" label="" id="121" itemLocked="False" itemVisible="True">
+        <MzCoord x1="5.805321" x2="7.021935" z1="1.380727" z2="1.680727" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_15" label="" id="123" itemLocked="False" itemVisible="True">
+        <MzCoord x1="5.516816" x2="6.120121" z1="2.2" z2="2.5" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_15" label="" id="124" itemLocked="False" itemVisible="True">
+        <MzCoord x1="5.314731" x2="6.390243" z1="2.5" z2="2.8" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_15" label="" id="125" itemLocked="False" itemVisible="True">
+        <MzCoord x1="5.584852" x2="6.660364" z1="2.8" z2="3.1" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_15" label="" id="126" itemLocked="False" itemVisible="True">
+        <MzCoord x1="5.854973" x2="6.930485" z1="3.1" z2="3.4" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_15" label="" id="127" itemLocked="False" itemVisible="True">
+        <MzCoord x1="6.125094" x2="7.200606" z1="3.4" z2="3.7" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_15" label="" id="128" itemLocked="False" itemVisible="True">
+        <MzCoord x1="6.395216" x2="7.470727" z1="3.7" z2="4" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_15" label="" id="129" itemLocked="False" itemVisible="True">
+        <MzCoord x1="6.665337" x2="7.740849" z1="4" z2="4.3" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_15" label="" id="130" itemLocked="False" itemVisible="True">
+        <MzCoord x1="6.935458" x2="8.01097" z1="4.3" z2="4.6" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_15" label="" id="131" itemLocked="False" itemVisible="True">
+        <MzCoord x1="7.205579" x2="8.047726" z1="4.6" z2="4.9" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+      <ActiveRegion group="active_region_15" label="" id="132" itemLocked="False" itemVisible="True">
+        <MzCoord x1="7.4757" x2="7.714542" z1="4.9" z2="5.2" y1="-1" y2="1" />
+        <Phase1Highlight timeElapsedThreshold="0" timeElapsedThresholdOperator="GreaterThan" pointThreshold="0" pointThresholdOperator="GreaterThanEqual">
+          <Audio />
+        </Phase1Highlight>
+        <Phase2Event interactRequired="False" highlightTimeElapsedThreshold="0" highlightTimeElapsedThresholdOperator="GreaterThan" activatedMessageText="" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" pointsGranted="1" pointsGrantedMode="Add" repeatableActivation="False">
+          <Audio />
+        </Phase2Event>
+      </ActiveRegion>
+    </ActiveRegions>
   </MazeItems>
 </MazeFile>
