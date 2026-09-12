@@ -10,7 +10,9 @@ from collections.abc import Callable
 import xml.etree.ElementTree as ET
 
 from wall_item import WallItem
-from region_item import RegionItem, ActiveRegionItem, EndRegionItem
+from region_item import RegionItem
+from end_region_item import EndRegionItem
+from active_region_item import ActiveRegionItem
 
 class EditorDocument:
     def __init__(self, scene):
@@ -50,7 +52,9 @@ class EditorDocument:
         )
         
     def write_wall(self, parent: ET.Element, item: WallItem):
-        x1, y1, x2, y2 = item.scene_geometry()
+        geometry = item.scene_geometry()
+        x1, y1 = geometry['x1'], geometry['y1']
+        x2, y2 =  geometry['x2'], geometry['y2']
     
         ET.SubElement(
             parent,
@@ -64,7 +68,9 @@ class EditorDocument:
         )
         
     def write_region(self, parent: ET.Element, item: RegionItem):
-        x, y, width, height = item.scene_geometry()
+        geometry = item.scene_geometry()
+        x, y = geometry['x'], geometry['y']
+        width, height = geometry['width'], geometry['height']
     
         ET.SubElement(
             parent,
