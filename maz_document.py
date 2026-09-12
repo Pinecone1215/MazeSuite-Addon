@@ -29,13 +29,17 @@ class MazDocument:
             'active': {
                 'container': self.active_regions,
                 'reference': self.ref_active_region,
-                'id': 1
+                'id': 1,
+                'group_id': 1,
+                'group_prefix': 'active_region'
             },
-            
+        
             'end': {
                 'container': self.end_regions,
                 'reference': self.ref_end_region,
-                'id': 1
+                'id': 1,
+                'group_id': 1,
+                'group_prefix': 'end_region'
             }
         }
 
@@ -70,6 +74,10 @@ class MazDocument:
     
     def add_region(self, region_type: str, rectangles: list[QRectF]) -> None:
         region_info = self.regions[region_type]
+    
+        group = f"{region_info['group_prefix']}_{region_info['group_id']:02d}"
+        region_info['group_id'] += 1
+    
         for rect in rectangles:
             x1 = rect.left()
             x2 = rect.right()
@@ -77,7 +85,10 @@ class MazDocument:
             z2 = rect.bottom()
     
             region = copy.deepcopy(region_info['reference'])
+    
             region.set('id', str(region_info['id']))
+            region.set('group', group)
+    
             region_info['id'] += 1
     
             coord = region.find('MzCoord')

@@ -6,7 +6,7 @@ Created on Sat Aug 29 14:25:38 2026
 """
 
 GRID_SIZE = 20
-SNAP_SIZE = 10
+SNAP_SIZE = 0.5
 MIN_ITEM_SIZE = 10
 
 SCENE_X = -3000
