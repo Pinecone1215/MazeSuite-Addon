@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MazeFile version="2.0" url="http://www.mazesuite.com">
+  <Info>
+    <Author name="Anonymous" comments="" />
+  </Info>
+  <Global>
+    <Avatar scale="1" rotX="0" rotY="0" rotZ="0" />
+    <General />
+    <Speed moveSpeed="3" turnSpeed="45" />
+    <AmbientLight r="1" g="1" b="1" intensity="0.6" />
+    <StartMessage enabled="False" message="" />
+    <DefaultStartPosition />
+    <Timeout enabled="False" message="" timeoutValue="0" />
+    <PointOptions exitThreshold="0" exitThresholdOperator="GreaterThanEqual" messageText="" />
+    <PerspectiveSettings avatarHeight="0" cameraHeight="15" cameraMode="First-Person" fieldOfView="45" fixCameraX="False" fixedCameraX="20" fixCameraZ="False" fixedCameraZ="20" topDownOrientation="North" xRayRendering="False" />
+  </Global>
+  <ImageLibrary />
+  <ModelLibrary />
+  <AudioLibrary />
+  <MazeItems>
+    <Walls>
+      <Wall group="" label="" id="1" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="3.9612872" y="1" z="-8.8548474" texX="1" texY="1" />
+        <MzPoint2 x="3.9612872" y="-1" z="-8.8548474" texX="1" texY="0" />
+        <MzPoint3 x="20.4956995" y="-1" z="-31.6125134" texX="0" texY="0" />
+        <MzPoint4 x="20.4956995" y="1" z="-31.6125134" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="2" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="20.4956995" y="1" z="-31.6125134" texX="1" texY="1" />
+        <MzPoint2 x="20.4956995" y="-1" z="-31.6125134" texX="1" texY="0" />
+        <MzPoint3 x="23.7317675" y="-1" z="-29.2613724" texX="0" texY="0" />
+        <MzPoint4 x="23.7317675" y="1" z="-29.2613724" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="3" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="23.7317675" y="1" z="-29.2613724" texX="1" texY="1" />
+        <MzPoint2 x="23.7317675" y="-1" z="-29.2613724" texX="1" texY="0" />
+        <MzPoint3 x="7.1973552" y="-1" z="-6.5037063" texX="0" texY="0" />
+        <MzPoint4 x="7.1973552" y="1" z="-6.5037063" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="4" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="7.1973552" y="1" z="-6.5037064" texX="1" texY="1" />
+        <MzPoint2 x="7.1973552" y="-1" z="-6.5037064" texX="1" texY="0" />
+        <MzPoint3 x="9.6455654" y="-1" z="1.0311097" texX="0" texY="0" />
+        <MzPoint4 x="9.6455654" y="1" z="1.0311097" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="5" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="9.6455653" y="1" z="1.0311097" texX="1" texY="1" />
+        <MzPoint2 x="9.6455653" y="-1" z="1.0311097" texX="1" texY="0" />
+        <MzPoint3 x="36.3988064" y="-1" z="9.7237647" texX="0" texY="0" />
+        <MzPoint4 x="36.3988064" y="1" z="9.7237647" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="6" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="36.3988064" y="1" z="9.7237647" texX="1" texY="1" />
+        <MzPoint2 x="36.3988064" y="-1" z="9.7237647" texX="1" texY="0" />
+        <MzPoint3 x="35.1627384" y="-1" z="13.5279907" texX="0" texY="0" />
+        <MzPoint4 x="35.1627384" y="1" z="13.5279907" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="7" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="35.1627384" y="1" z="13.5279907" texX="1" texY="1" />
+        <MzPoint2 x="35.1627384" y="-1" z="13.5279907" texX="1" texY="0" />
+        <MzPoint3 x="8.4094974" y="-1" z="4.8353358" texX="0" texY="0" />
+        <MzPoint4 x="8.4094974" y="1" z="4.8353358" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="8" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="8.4094974" y="1" z="4.8353358" texX="1" texY="1" />
+        <MzPoint2 x="8.4094974" y="-1" z="4.8353358" texX="1" texY="0" />
+        <MzPoint3 x="2" y="-1" z="9.4921082" texX="0" texY="0" />
+        <MzPoint4 x="2" y="1" z="9.4921082" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="9" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="2" y="1" z="9.4921082" texX="1" texY="1" />
+        <MzPoint2 x="2" y="-1" z="9.4921082" texX="1" texY="0" />
+        <MzPoint3 x="2" y="-1" z="37.6221305" texX="0" texY="0" />
+        <MzPoint4 x="2" y="1" z="37.6221305" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="10" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="2" y="1" z="37.6221305" texX="1" texY="1" />
+        <MzPoint2 x="2" y="-1" z="37.6221305" texX="1" texY="0" />
+        <MzPoint3 x="-2" y="-1" z="37.6221305" texX="0" texY="0" />
+        <MzPoint4 x="-2" y="1" z="37.6221305" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="11" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-2" y="1" z="37.6221305" texX="1" texY="1" />
+        <MzPoint2 x="-2" y="-1" z="37.6221305" texX="1" texY="0" />
+        <MzPoint3 x="-2" y="-1" z="9.4921082" texX="0" texY="0" />
+        <MzPoint4 x="-2" y="1" z="9.4921082" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="12" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-2" y="1" z="9.4921082" texX="1" texY="1" />
+        <MzPoint2 x="-2" y="-1" z="9.4921082" texX="1" texY="0" />
+        <MzPoint3 x="-8.4094974" y="-1" z="4.8353358" texX="0" texY="0" />
+        <MzPoint4 x="-8.4094974" y="1" z="4.8353358" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="13" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-8.4094974" y="1" z="4.8353358" texX="1" texY="1" />
+        <MzPoint2 x="-8.4094974" y="-1" z="4.8353358" texX="1" texY="0" />
+        <MzPoint3 x="-35.1627384" y="-1" z="13.5279907" texX="0" texY="0" />
+        <MzPoint4 x="-35.1627384" y="1" z="13.5279907" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="14" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-35.1627384" y="1" z="13.5279907" texX="1" texY="1" />
+        <MzPoint2 x="-35.1627384" y="-1" z="13.5279907" texX="1" texY="0" />
+        <MzPoint3 x="-36.3988064" y="-1" z="9.7237647" texX="0" texY="0" />
+        <MzPoint4 x="-36.3988064" y="1" z="9.7237647" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="15" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-36.3988064" y="1" z="9.7237647" texX="1" texY="1" />
+        <MzPoint2 x="-36.3988064" y="-1" z="9.7237647" texX="1" texY="0" />
+        <MzPoint3 x="-9.6455653" y="-1" z="1.0311097" texX="0" texY="0" />
+        <MzPoint4 x="-9.6455653" y="1" z="1.0311097" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="16" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-9.6455654" y="1" z="1.0311097" texX="1" texY="1" />
+        <MzPoint2 x="-9.6455654" y="-1" z="1.0311097" texX="1" texY="0" />
+        <MzPoint3 x="-7.1973552" y="-1" z="-6.5037064" texX="0" texY="0" />
+        <MzPoint4 x="-7.1973552" y="1" z="-6.5037064" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="17" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-7.1973552" y="1" z="-6.5037063" texX="1" texY="1" />
+        <MzPoint2 x="-7.1973552" y="-1" z="-6.5037063" texX="1" texY="0" />
+        <MzPoint3 x="-23.7317675" y="-1" z="-29.2613724" texX="0" texY="0" />
+        <MzPoint4 x="-23.7317675" y="1" z="-29.2613724" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="18" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-23.7317675" y="1" z="-29.2613724" texX="1" texY="1" />
+        <MzPoint2 x="-23.7317675" y="-1" z="-29.2613724" texX="1" texY="0" />
+        <MzPoint3 x="-20.4956995" y="-1" z="-31.6125134" texX="0" texY="0" />
+        <MzPoint4 x="-20.4956995" y="1" z="-31.6125134" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="19" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-20.4956995" y="1" z="-31.6125134" texX="1" texY="1" />
+        <MzPoint2 x="-20.4956995" y="-1" z="-31.6125134" texX="1" texY="0" />
+        <MzPoint3 x="-3.9612872" y="-1" z="-8.8548474" texX="0" texY="0" />
+        <MzPoint4 x="-3.9612872" y="1" z="-8.8548474" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="20" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-3.9612872" y="1" z="-8.8548474" texX="1" texY="1" />
+        <MzPoint2 x="-3.9612872" y="-1" z="-8.8548474" texX="1" texY="0" />
+        <MzPoint3 x="3.9612872" y="-1" z="-8.8548474" texX="0" texY="0" />
+        <MzPoint4 x="3.9612872" y="1" z="-8.8548474" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="21" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="3.5272531" y="1" z="-4.8548474" texX="1" texY="1" />
+        <MzPoint2 x="3.5272531" y="-1" z="-4.8548474" texX="1" texY="0" />
+        <MzPoint3 x="5.7072154" y="-1" z="1.8543867" texX="0" texY="0" />
+        <MzPoint4 x="5.7072154" y="1" z="1.8543867" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="22" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="5.7072154" y="1" z="1.8543867" texX="1" texY="1" />
+        <MzPoint2 x="5.7072154" y="-1" z="1.8543867" texX="1" texY="0" />
+        <MzPoint3 x="0" y="-1" z="6.0009214" texX="0" texY="0" />
+        <MzPoint4 x="0" y="1" z="6.0009214" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="23" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="0" y="1" z="6.0009214" texX="1" texY="1" />
+        <MzPoint2 x="0" y="-1" z="6.0009214" texX="1" texY="0" />
+        <MzPoint3 x="-5.7072154" y="-1" z="1.8543867" texX="0" texY="0" />
+        <MzPoint4 x="-5.7072154" y="1" z="1.8543867" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="24" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-5.7072154" y="1" z="1.8543867" texX="1" texY="1" />
+        <MzPoint2 x="-5.7072154" y="-1" z="1.8543867" texX="1" texY="0" />
+        <MzPoint3 x="-3.5272531" y="-1" z="-4.8548474" texX="0" texY="0" />
+        <MzPoint4 x="-3.5272531" y="1" z="-4.8548474" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+      <Wall group="" label="" id="25" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-3.5272531" y="1" z="-4.8548474" texX="1" texY="1" />
+        <MzPoint2 x="-3.5272531" y="-1" z="-4.8548474" texX="1" texY="0" />
+        <MzPoint3 x="3.5272531" y="-1" z="-4.8548474" texX="0" texY="0" />
+        <MzPoint4 x="3.5272531" y="1" z="-4.8548474" texX="0" texY="1" />
+        <Texture id="" aspectRatio="1" flip="False" mode="Stretch" rotation="3" tileSize="1" />
+        <Color r="1" g="1" b="1" />
+        <Appearance visible="True" />
+      </Wall>
+    </Walls>
+    <Floors>
+      <Floor group="" label="" id="1" itemLocked="False" itemVisible="True">
+        <MzPoint1 x="-40" y="-1" z="-36" texX="0" texY="0" texX_Ceiling="0" texY_Ceiling="0" />
+        <MzPoint2 x="40" y="-1" z="-36" texX="0" texY="1" texX_Ceiling="0" texY_Ceiling="1" />
+        <MzPoint3 x="40" y="-1" z="42" texX="1" texY="1" texX_Ceiling="1" texY_Ceiling="1" />
+        <MzPoint4 x="-40" y="-1" z="42" texX="1" texY="0" texX_Ceiling="1" texY_Ceiling="0" />
+        <FloorColor r="1" g="1" b="1" />
+        <CeilingColor r="1" g="1" b="1" />
+        <Appearance hasCeiling="True" ceilingHeight="2" visible="True" />
+      </Floor>
+    </Floors>
+    <StaticModels />
+    <DynamicObjects />
+    <StartPositions />
+    <EndRegions>
+      <EndRegion group="end_region_02" label="" id="8" itemLocked="False" itemVisible="True">
+        <MzCoord x1="34.35853" x2="35.37931" z1="9.424506" z2="9.724506" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_02" label="" id="9" itemLocked="False" itemVisible="True">
+        <MzCoord x1="34.26105" x2="36.2665" z1="9.724506" z2="10.02451" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_02" label="" id="10" itemLocked="False" itemVisible="True">
+        <MzCoord x1="34.16357" x2="36.16902" z1="10.02451" z2="10.32451" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_02" label="" id="11" itemLocked="False" itemVisible="True">
+        <MzCoord x1="34.0661" x2="36.07155" z1="10.32451" z2="10.62451" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_02" label="" id="12" itemLocked="False" itemVisible="True">
+        <MzCoord x1="33.96862" x2="35.97407" z1="10.62451" z2="10.92451" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_02" label="" id="13" itemLocked="False" itemVisible="True">
+        <MzCoord x1="33.87115" x2="35.87659" z1="10.92451" z2="11.22451" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_02" label="" id="14" itemLocked="False" itemVisible="True">
+        <MzCoord x1="33.77367" x2="35.77912" z1="11.22451" z2="11.52451" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_02" label="" id="15" itemLocked="False" itemVisible="True">
+        <MzCoord x1="33.6762" x2="35.68164" z1="11.52451" z2="11.82451" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_02" label="" id="16" itemLocked="False" itemVisible="True">
+        <MzCoord x1="33.57872" x2="35.58417" z1="11.82451" z2="12.12451" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_02" label="" id="17" itemLocked="False" itemVisible="True">
+        <MzCoord x1="33.48124" x2="35.48669" z1="12.12451" z2="12.42451" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_02" label="" id="18" itemLocked="False" itemVisible="True">
+        <MzCoord x1="33.38377" x2="35.38922" z1="12.42451" z2="12.72451" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_02" label="" id="19" itemLocked="False" itemVisible="True">
+        <MzCoord x1="33.5147" x2="35.29174" z1="12.72451" z2="13.02451" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_02" label="" id="20" itemLocked="False" itemVisible="True">
+        <MzCoord x1="34.438" x2="35.19426" z1="13.02451" z2="13.32451" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_03" label="" id="21" itemLocked="False" itemVisible="True">
+        <MzCoord x1="20.26134" x2="20.89222" z1="-31.3027" z2="-31.0027" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_03" label="" id="22" itemLocked="False" itemVisible="True">
+        <MzCoord x1="20.04338" x2="21.30513" z1="-31.0027" z2="-30.7027" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_03" label="" id="23" itemLocked="False" itemVisible="True">
+        <MzCoord x1="19.82542" x2="21.71805" z1="-30.7027" z2="-30.4027" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_03" label="" id="24" itemLocked="False" itemVisible="True">
+        <MzCoord x1="19.60745" x2="22.13096" z1="-30.4027" z2="-30.1027" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_03" label="" id="25" itemLocked="False" itemVisible="True">
+        <MzCoord x1="19.55419" x2="22.54388" z1="-30.1027" z2="-29.8027" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_03" label="" id="26" itemLocked="False" itemVisible="True">
+        <MzCoord x1="19.9671" x2="22.95679" z1="-29.8027" z2="-29.5027" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_03" label="" id="27" itemLocked="False" itemVisible="True">
+        <MzCoord x1="20.38002" x2="23.36971" z1="-29.5027" z2="-29.2027" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_03" label="" id="28" itemLocked="False" itemVisible="True">
+        <MzCoord x1="20.79293" x2="23.46191" z1="-29.2027" z2="-28.9027" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_03" label="" id="29" itemLocked="False" itemVisible="True">
+        <MzCoord x1="21.20585" x2="23.24395" z1="-28.9027" z2="-28.6027" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_03" label="" id="30" itemLocked="False" itemVisible="True">
+        <MzCoord x1="21.61876" x2="23.02599" z1="-28.6027" z2="-28.3027" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_03" label="" id="31" itemLocked="False" itemVisible="True">
+        <MzCoord x1="22.03168" x2="22.80802" z1="-28.3027" z2="-28.0027" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_04" label="" id="33" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-20.86954" x2="-20.23866" z1="-31.27927" z2="-30.97927" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_04" label="" id="34" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-21.28245" x2="-20.0207" z1="-30.97927" z2="-30.67927" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_04" label="" id="35" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-21.69537" x2="-19.80273" z1="-30.67927" z2="-30.37927" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_04" label="" id="36" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-22.10828" x2="-19.58477" z1="-30.37927" z2="-30.07927" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_04" label="" id="37" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-22.5212" x2="-19.53151" z1="-30.07927" z2="-29.77927" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_04" label="" id="38" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-22.93411" x2="-19.94442" z1="-29.77927" z2="-29.47927" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_04" label="" id="39" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-23.34702" x2="-20.35734" z1="-29.47927" z2="-29.17927" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_04" label="" id="40" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-23.43923" x2="-20.77025" z1="-29.17927" z2="-28.87927" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_04" label="" id="41" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-23.22127" x2="-21.18317" z1="-28.87927" z2="-28.57927" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_04" label="" id="42" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-23.00331" x2="-21.59608" z1="-28.57927" z2="-28.27927" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_04" label="" id="43" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-22.78534" x2="-22.009" z1="-28.27927" z2="-27.97927" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="45" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-35.39407" x2="-34.37329" z1="9.415722" z2="9.715721" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="46" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-36.28126" x2="-34.27581" z1="9.715721" z2="10.01572" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="47" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-36.18378" x2="-34.17834" z1="10.01572" z2="10.31572" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="48" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-36.08631" x2="-34.08086" z1="10.31572" z2="10.61572" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="49" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-35.98883" x2="-33.98339" z1="10.61572" z2="10.91572" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="50" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-35.89136" x2="-33.88591" z1="10.91572" z2="11.21572" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="51" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-35.79388" x2="-33.78843" z1="11.21572" z2="11.51572" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="52" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-35.69641" x2="-33.69096" z1="11.51572" z2="11.81572" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="53" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-35.59893" x2="-33.59348" z1="11.81572" z2="12.11572" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="54" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-35.50145" x2="-33.49601" z1="12.11572" z2="12.41572" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="55" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-35.40398" x2="-33.39853" z1="12.41572" z2="12.71572" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="56" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-35.3065" x2="-33.52946" z1="12.71572" z2="13.01572" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_05" label="" id="57" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-35.20903" x2="-34.45276" z1="13.01572" z2="13.31572" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+      <EndRegion group="end_region_01" label="" id="1" itemLocked="False" itemVisible="True">
+        <MzCoord x1="-2" x2="2" z1="35.6" z2="37.6" y1="-1" y2="1" />
+        <Action returnValue="0" pointThreshold="0" pointThresholdOperator="GreaterThanEqual" successMessage="" />
+      </EndRegion>
+    </EndRegions>
+    <Lights />
+    <ActiveRegions />
+  </MazeItems>
+</MazeFile>
